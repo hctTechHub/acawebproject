@@ -4,9 +4,9 @@ const FooterComponent = () => {
     return(
         
                     <div className="px-8 pt-16  absolute bottom-0 flex flex-col w-full  bg-amber-950 text-amber-50"> 
-                        <div className="flex sm:flex-col sm:space-y-4 lg:flex-row lg:space-x-8">
-                          <div className="pb-16 flex sm:space-x-32 lg:space-x-8 justify-between">
-                            <div className="sm:flex-1 lg:flex-2 flex flex-col">
+                        <div className="flex flex-col space-y-4 sm:flex-col sm:space-y-4 lg:flex-row lg:space-x-8">
+                          <div className="pb-16 flex space-x-32 sm:space-x-32 lg:space-x-8 justify-between">
+                            <div className="flex-1 sm:flex-1 lg:flex-2 flex flex-col">
                                 <img className="w-30 h-30" src={acaLogo} alt="acaLogo"/>
                                 <p>American Christian Academy (ACA) is an internationally accredited Christian school currently serving creche through twelfth grade students.</p>
                             </div>
@@ -21,7 +21,7 @@ const FooterComponent = () => {
                                 <a href="#">News & Update</a>
                             </div>
                         </div>
-                        <div className="flex sm:pb-8 sm:space-x-32 lg:space-x-8 lg:justify-between">
+                        <div className="flex pb-8 space-x-32 sm:pb-8 sm:space-x-32 lg:pb-0 lg:space-x-8 lg:justify-between">
                             <div className="flex-2">
                                 <h5 className="pb-4 text-lg font-semibold">Non-Discriminatory Policy</h5>
                                 <p>American Christian Academy prohibits discrimination against any student in the process of admittance on the basis of race, religion, color, sex, age, national origin or ancestry, genetic information, or parental status. Students are eligible for admission if it is believed that the school is able to meet their particular needs.</p>
