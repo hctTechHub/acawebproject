@@ -1,7 +1,7 @@
 import {useState,useEffect} from 'react'
 import {useInView} from 'react-intersection-observer'
 import {Link} from "react-router-dom"
-import AcaLogo from "../assets/Images/acaLogo.png"
+import AcaLogo from "../assets/images/acaLogo.png"
 const HeaderComponent = () => {
 
 const [targetId,setTargetId] = useState("")
