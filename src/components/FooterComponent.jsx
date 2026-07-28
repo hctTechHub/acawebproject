@@ -4,13 +4,13 @@ const FooterComponent = () => {
     return(
         
                     <div className="px-8 pt-16  absolute bottom-0 flex flex-col w-full  bg-amber-950 text-amber-50"> 
-                        <div className="flex flex-col space-y-4 sm:flex-col sm:space-y-4 lg:flex-row lg:space-x-8">
-                          <div className="pb-16 flex space-x-32 sm:space-x-32 lg:space-x-8 justify-between">
-                            <div className="flex-1 sm:flex-1 lg:flex-2 flex flex-col">
+                        <div className="flex flex-col sm:flex-col lg:flex-row  lg:space-x-16">
+                          <div className="pb-8 flex flex-col  space-y-8  sm:flex-row lg:flex-row  sm:space-x-64  lg:space-x-16  justify-between">
+                            <div className="sm:flex-1 md:flex-1 lg:flex-2 flex  flex-col">
                                 <img className="w-30 h-30" src={acaLogo} alt="acaLogo"/>
                                 <p>American Christian Academy (ACA) is an internationally accredited Christian school currently serving creche through twelfth grade students.</p>
                             </div>
-                            <div className="flex-1 flex flex-col">
+                            <div className="sm:flex-1 md:flex-1 lg:flex-1 flex flex-col">
                                 <h5 className="pb-4 text-lg font-semibold text-amber-50">Site Map</h5>
                                 <a href="#">Home</a>
                                 <a href="#">About</a>
@@ -21,12 +21,12 @@ const FooterComponent = () => {
                                 <a href="#">News & Update</a>
                             </div>
                         </div>
-                        <div className="flex pb-8 space-x-32 sm:pb-8 sm:space-x-32 lg:pb-0 lg:space-x-8 lg:justify-between">
+                        <div className="flex pb-8 flex-col space-y-8  sm:flex-row sm:space-x-64 lg:pb-0 lg:space-x-16 lg:justify-between">
                             <div className="flex-2">
                                 <h5 className="pb-4 text-lg font-semibold">Non-Discriminatory Policy</h5>
                                 <p>American Christian Academy prohibits discrimination against any student in the process of admittance on the basis of race, religion, color, sex, age, national origin or ancestry, genetic information, or parental status. Students are eligible for admission if it is believed that the school is able to meet their particular needs.</p>
                             </div>
-                            <div class="flex-2 flex flex-col">
+                            <div class="flex-2 flex flex-col ">
                                 <h5 className="pb-4 text-lg font-semibold">Subscribe For Our News Letter</h5>
                                 <div className="flex flex-col space-y-2">
                                     <label>
