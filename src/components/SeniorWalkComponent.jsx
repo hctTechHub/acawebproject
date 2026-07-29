@@ -11,7 +11,7 @@ const SeniorWalkComponent = () => {
       },[inView])
 
     return(
-        <div  className="px-8 sm:py-22 lg:py-45 bg-gradient-to-b from-white to-amber-50">
+        <div  className="px-8 py-12 sm:py-22 lg:py-45 bg-gradient-to-b from-white to-amber-50">
                 <h6 className="pb-4 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">From Classrooms to New Horizons</h6>
                 <div className="sm:w-full lg:w-1/2">
                   <p className="text-amber-950 text-4xl font-semibold">Every Step Tells a Story. Every Memory Lasts Forever.</p>

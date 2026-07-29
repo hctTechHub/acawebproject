@@ -48,11 +48,11 @@ const handleClick = (num) => {
     return(
 
         <>
-            <div className="sm:space-y-16 lg:space-y-32  bg-amber-50 bg-gradient-to-b from-amber-50 to-white px-12 sm:pt-36 sm:pb-20 lg:py-36">
-                          <div className="flex sm:space-y-8 lg:space-y-0 sm:flex-col lg:flex-row lg:tems-center">
+            <div className="space-y-8 sm:space-y-16 lg:space-y-32  bg-amber-50 bg-gradient-to-b from-amber-50 to-white px-12 pt-18 pb-10 sm:pt-36 sm:pb-20 lg:py-36">
+                          <div className="flex space-y-4 sm:space-y-8 lg:space-y-0 flex-col sm:flex-col lg:flex-row lg:tems-center">
                               <div className="flex-1">
                                       <h6 className="pb-4 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">WHY AMERICAN CHRISTIAN ACADEMY [ACA]</h6>
-                                      <p className="sm:text-4xl lg:text-6xl font-semibold text-amber-950">Building Future Leaders Through Excellence</p>
+                                      <p className="text-4xl sm:text-4xl lg:text-6xl font-semibold text-amber-950">Building Future Leaders Through Excellence</p>
                               </div>
                               <div className="flex-1 leading-relaxed">
                                   <p className="text-amber-950 text-md">
@@ -68,8 +68,8 @@ const handleClick = (num) => {
             
                           {/**Visit Our School */}
                           <div>
-                            <h6 className="sm:pb-8 lg:pb-16 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">VISIT OUR SCHOOLS</h6>
-                              <div className="flex sm:flex-col lg:flex-row sm:space-y-4 lg:space-y-0 sm:space-x-0 lg:space-x-2 w-full mx-auto ">
+                            <h6 className="pb-8 sm:pb-8 lg:pb-16 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">VISIT OUR SCHOOLS</h6>
+                              <div className="flex flex-col space-y-8 sm:flex-col lg:flex-row sm:space-y-4 lg:space-y-0 sm:space-x-0 lg:space-x-2 w-full mx-auto ">
                                 <div className="relative flex-1 bg-amber-100 space-y-4 px-4 py-8 rounded-lg shadow-2xl">
                                       <h1 className="relative py-2 after:absolute after:h-0.5 after:w-full after:bg-amber-950 after:bottom-0 after:left-0 text-amber-950 font-bold text-lg">Pre-School</h1>
                                       <p className="pb-8">American Christian Academy Nursery School provides a safe, nurturing, and Christ-centered environment where young learners develop foundational academic, and social learning experiences.</p>
@@ -109,27 +109,27 @@ const handleClick = (num) => {
                     </div> 
                     {/**End Visit Our School */}
                     {/**Our Community */}
-                    <div className="bg-gradient-to-b from-white to-amber-50 sm:px-12 lg:px-8 py-8">
+                    <div className="px-12 bg-gradient-to-b from-white to-amber-50 sm:px-12 lg:px-8 py-8">
                           <h6 className="pb-8  text-amber-900 text-sm tracking-wide font-extrabold opacity-80">OUR COMMUNITY</h6>
-                          <div className="flex sm:flex-col lg:flex-row items-center justify-between">
+                          <div className="flex flex-col sm:flex-col lg:flex-row items-center justify-between">
                               <div className="flex-1 grid grid-cols-3 gap-3">
                                   <div className="col-span-2 rounded-md aspect-video overflow-hidden shadow-2xl"><img src={Community10Image} alt="image" className="w-full h-full object-cover" /></div>
                                   <div className="overflow-hidden rounded-md shadow-2xl"><img src={Community7Image} className="w-full h-full object-cover" alt="image" /></div>
                                   <div className="overflow-hidden rounded-md shadow-2xl"><img src={Community2Image} alt="image" className="w-full h-full object-cover" /></div>
                                   <div className="col-span-2 aspect-video overflow-hidden rounded-md shadow-2xl"><img src={Community6Image} alt="image" className="w-full h-full  object-center" /></div>
                               </div>
-                              <div className="flex-1 sm:pt-16  lg:px-16  sm:text-left lg:text-center tracking-wide">
-                                <p className="sm:text-4xl lg:text-6xl font-semibold text-amber-950 ">A Community Committed to Excellence</p>
+                              <div className="flex-1 pt-8  text-left sm:pt-16  lg:px-16  sm:text-left lg:text-center tracking-wide">
+                                <p className="text-4xl sm:text-4xl lg:text-6xl font-semibold text-amber-950 ">A Community Committed to Excellence</p>
                                 <p className="text-left pt-8 text-amber-950">American Christian Academy fosters a strong partnership among parents, staff, and the school community, working together to uphold academic excellence and support every student's academic, spiritual, and personal growth.</p>
                               </div>
                             </div>
                             {/**End Our Community */}
             
                             {/**Our Programs Section */}
-                            <div className="sm:py-16 lg:py-32">
+                            <div className="py-8 sm:py-16 lg:py-32">
                              <h6 className="pb-4 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">OUR PROGRAMMES</h6>
                              <div className="sm:w-full lg:w-1/2 pb-4">
-                                <p className="sm:text-4xl lg:text-4xl font-semibold text-amber-950">Standardize Academic Examinations & College Preparations</p>
+                                <p className="text-4xl sm:text-4xl lg:text-4xl font-semibold text-amber-950">Standardize Academic Examinations & College Preparations</p>
                              </div>
                              <div className="w-full shadow-lg text-center px-4 py-4  gap-2 grid sm:grid-cols-1 lg:grid-cols-5 rounded-3xl bg-white">
                                 <div className="rounded-tl-lg rounded-bl-lg bg-amber-100 px-8 py-16 text-amber-950">
@@ -177,13 +177,13 @@ const handleClick = (num) => {
                 {/**Ready to join ACA Section */}
                <div className="px-8 py-4 bg-gradient-to-b from-amber-50 to-white">
                  <h6 className="pb-4 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">READY TO JOIN ACA</h6>
-                 <div className="sm:w-full lg:w-1/2 pb-4">
+                 <div className="w-full lg:w-1/2 pb-4">
                     <p className="text-4xl font-semibold text-amber-950">Begin Your Journey at American Christian Academy</p>
                  </div>
-                 <div className="flex sm:flex-col sm:space-y-10 lg:space-y-0 lg:flex-row sm:space-x-0 lg:space-x-16">
+                 <div className="flex flex-col  space-y-10 sm:flex-col sm:space-y-10 lg:space-y-0 lg:flex-row sm:space-x-0 lg:space-x-16">
                     <div className="flex-1">
                       <div className="flex relative  items-center justify-center h-full py-8">
-                          <div className="absolute sm:bottom-0 sm:left-0 flex items-center justify-center border-4 border-white w-[80%] h-[30%] lg:top-80 lg:right-0 rounded-lg bg-gray-100/80 backdrop-blur-md lg:mb-200">
+                          <div className="absolute bottom-0 sm:bottom-0 sm:left-0 flex items-center justify-center border-4 border-white w-[80%] h-[30%] lg:top-80 lg:right-0 rounded-lg bg-gray-100/80 backdrop-blur-md lg:mb-200">
                               <a href="#" className="inline-block px-4 py-4 bg-amber-950 text-amber-50 rounded-lg" >Click To Start Application <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="inline-block size-4">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
                                   </svg>
@@ -247,9 +247,9 @@ const handleClick = (num) => {
 
               {/**FAQs */}
 
-              <div className="sm:px-8 py-8 flex flex-col items-center  bg-gradient-to-b from-amber-50 to-white">
+              <div className="px-8 sm:px-8 py-8 flex flex-col items-center  bg-gradient-to-b from-amber-50 to-white">
                 <h6 className="pb-4 tracking-widest text-amber-900 text-sm  font-extrabold opacity-80">FAQs</h6>
-                <h1 className="pb-8 text-amber-950 font-semibold sm:text-4xl lg:text-6xl">Frequently Asked Questions</h1>
+                <h1 className="pb-8 text-amber-950 font-semibold text-4xl text-center sm:text-4xl lg:text-6xl">Frequently Asked Questions</h1>
                 <div className="sm:w-full lg:w-1/2 text-center mx-auto">
                   <p className="pb-16 text-md">Find answers to some of the most frequently asked questions about American Christian Academy, including admissions, academics, boarding, tuition, and student life.
                   </p>
@@ -351,7 +351,7 @@ const handleClick = (num) => {
 
 
               {/**Events & Blogs */}
-              <div className="sm:pb-200 lg:pb-150 flex sm:flex-col lg:flex-row sm:space-y-24 lg:space-x-32 px-8 pt-32">
+              <div className="pb-300 sm:pb-240 lg:pb-150 flex flex-col space-y-12 sm:flex-col lg:flex-row sm:space-y-24 lg:space-x-32 px-8 pt-32">
                 <div className="flex-1 flex flex-col">
                   <div className="flex justify-between">
                     <h6 className="text-sm text-amber-900 opacity-80 font-extrabold tracking-wide">Upcoming Events</h6>

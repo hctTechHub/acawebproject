@@ -134,9 +134,9 @@ useEffect(() => {
                             <div className="p-4 flex items-center w-[95%] mx-auto py-3">
                         {/*logo*/}
                         
-                        <div className={harmburger ? "p-8 rounded-lg bg-amber-100 flex flex-col  w-full" : "hidden"}>
+                        <div className={harmburger ? "p-8 rounded-lg bg-amber-100 flex flex-col  w-full " : "hidden"}>
                         {/**Links */}
-                        <div className={harmburger ? "sm:flex sm:flex-col" : " lg:flex lg:flex-grow lg:justify-between lg:flex-row text-sm  font-semibold  text-amber-950"}>
+                        <div className={harmburger ? "flex flex-col sm:flex sm:flex-col" : " lg:flex lg:flex-grow lg:justify-between lg:flex-row text-sm  font-semibold  text-amber-950"}>
                             <Link to="/" className="relative sm:p-2 sm:after:hidden lg:after:block after:absolute lg:pb-2 after:origin-left  after:bottom-0 after:left-2 after:h-0.5  after:bg-amber-950 transform hover:after:origin-right-left  after:w-full after:duration-500 after:scale-x-0 hover:after:scale-x-100">Home</Link>
                             <div className="w-full h-0.5  bg-amber-950 opacity-5 lg:hidden"></div> 
                             <Link to="/about" id="about" onMouseEnter = {(e) => handleMouseEnter(e)} className="relative sm:p-2 sm:after:hidden lg:after:block after:absolute lg:pb-2 after:origin-left after:bottom-0 after:left-2 after:h-0.5 after:bg-amber-950 transform hover:after:origin-right-left after:w-full after:duration-500 after:scale-x-0 hover:after:scale-x-100">About</Link>
@@ -166,7 +166,7 @@ useEffect(() => {
                     <div className="sm:p-4 lg:flex lg:items-center lg:w-[85%] lg:mx-auto  lg:py-3">
                         {/*logo*/}
                         
-                        <div className={harmburger ? "sm:p-8 sm:rounded-lg sm:bg-amber-50 sm:flex sm:flex-col " : "sm:hidden sm:bg-transparent lg:bg-transparent lg:space-x-8  lg:flex lg:flex-row lg:items-center lg:justify-end lg:w-full"}>
+                        <div className={harmburger ? "sm:p-8 sm:rounded-lg sm:bg-amber-50 sm:flex sm:flex-col " : "hidden sm:hidden sm:bg-transparent lg:bg-transparent lg:space-x-8  lg:flex lg:flex-row lg:items-center lg:justify-end lg:w-full"}>
                         {/**Links */}
                         <div className={harmburger ? "sm:flex sm:flex-col" : "lg:flex lg:flex-grow lg:justify-between lg:flex-row text-sm  font-semibold  text-amber-950"}>
                             <Link to="/" className="relative sm:p-2 sm:after:hidden lg:after:block after:absolute lg:pb-2 after:origin-left  after:bottom-0 after:left-2 after:h-0.5  after:bg-amber-950 transform hover:after:origin-right-left  after:w-full after:duration-500 after:scale-x-0 hover:after:scale-x-100">Home</Link>
