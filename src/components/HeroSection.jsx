@@ -45,7 +45,7 @@ return(
                 fill="none"
             />
             </svg>
-          <div className="absolute top-128 inset-x-10 md:left-12 md:top-115 sm:left-12 lg:right-40 sm:top-115 lg:top-105 flex items-center justify-center space-x-8 shadow-2xl transform py-4 w-[85%] sm:w-[85%] lg:w-[65%]  rounded-lg bg-gray-100/80 backdrop-blur-md">
+          <div className="absolute top-105  min-[400px]:top-105 min-[440px]:top-120 min-[500px]:top-130 min-[540px]:top-130 inset-x-0 md:left-12 md:top-115 sm:left-12 lg:left-80 sm:top-115 lg:top-105 flex items-center justify-center space-x-8 shadow-2xl transform py-4 w-full sm:w-[85%] lg:w-[65%]  rounded-lg bg-gray-100/80 backdrop-blur-md">
               <div className="flex items-center space-x-2">
                 <div className="bg-amber-100 rounded px-2 py-2">
                     <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-4">
