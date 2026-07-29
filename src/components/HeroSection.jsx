@@ -9,7 +9,7 @@ return(
     <>
         <div className="relative bg-amber-100 px-2">
           <div className="flex flex-col sm:flex-col lg:flex-row lg:justify-between">
-              <div className="relative order-2 pt-60 pb-5 sm:order-2 lg:order-1 sm:w-150 lg:w-100 px-12 sm:pt-64 sm:pb-5 lg:py-8">
+              <div className="relative order-2 pt-75 md:pt-60 pb-5 sm:order-2 lg:order-1 sm:w-150 lg:w-100 px-12 sm:pt-64 sm:pb-5 lg:py-8">
                   <img src={HeroBrushImage} alt="brush-stroke" className="absolute sm:top-50 lg:top-20 h-80  left-2"/>
                   <h5 className="text-amber-700 font-bold text-lg">American Christian Academy</h5>
                   <h1 className="relative text-amber-950 lg:text-6xl text-5xl sm:text-7xl font-extrabold tracking-wide">Pursuing excellence <span className="text-amber-900">across</span> every endeavor.</h1>
@@ -45,7 +45,7 @@ return(
                 fill="none"
             />
             </svg>
-          <div className="absolute top-105 sm:top-100 flex items-center justify-center space-x-8 shadow-2xl transform py-4 w-full sm:w-[85%] lg:w-[60%] rounded-lg bg-gray-100/80 backdrop-blur-md">
+          <div className="absolute top-128 inset-x-10 md:left-12 md:top-115 sm:left-12 lg:right-40 sm:top-115 lg:top-105 flex items-center justify-center space-x-8 shadow-2xl transform py-4 w-[85%] sm:w-[85%] lg:w-[65%]  rounded-lg bg-gray-100/80 backdrop-blur-md">
               <div className="flex items-center space-x-2">
                 <div className="bg-amber-100 rounded px-2 py-2">
                     <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-4">
