@@ -12,17 +12,17 @@ const AboutComponent = () => {
     return(
         <>
             <div className="pb-20">
-                <div className="relative mt-20 lg:mt-0  w-full h-[250px] md:h-full lg:h-[500px] lg:overflow-hidden">
+                <div className="relative mt-20 md:mt-12 lg:mt-0  w-full h-[250px]  lg:h-[500px]">
                     <img src={AcaGroup} className="w-full h-full object-cover" />
-                    <div className="absolute inset-0 top-0 lg:top-0 bottom-0 bg-amber-950 opacity-80"></div>
-                    <div className="absolute   top-20    lg:pt-20 flex flex-col items-left justify-center">
-                        <div class="relative">
+                    <div className="absolute inset-0 bg-amber-950 opacity-80"></div>
+                    <div className="absolute inset-0 lg:pt-20 flex flex-col items-left justify-center">
                             <h3 className="pl-8 pb-4 text-md lg:text-lg tracking-widest font-extrabold text-amber-100">ABOUT US </h3>
-                            <div className="relative  z-10 ml-0 mb-10 md:ml-8 lg:ml-8 p-4  md:rounded-lg lg:rounded-tr-4xl lg:rounded-bl-4xl  bg-amber-900 w-[100%] md:w-3/5 lg:w-3/5 opacity-90">
-                                <p className="px-8 font-archivo lg:leading-10 text-md  lg:text-4xl  text-amber-50">Committed to nurturing excellence in learning, leadership, and life.</p>
+                            <div className="relative h-2/3">
+                                <div className="absolute top-0 z-10  mb-10  ml-8 lg:ml-8 p-4  rounded-lg lg:rounded-tr-4xl lg:rounded-bl-4xl  bg-amber-900 w-[300px] md:w-[400px] lg:w-[600px] opacity-90">
+                                    <p className="px-8 font-archivo lg:leading-10 text-md  lg:text-4xl  text-amber-50">Committed to nurturing excellence in learning, leadership, and life.</p>
+                                </div>
+                                <div className="absolute  z-0   rounded-br-full top-25 left-75  md:top-20 md:left-100 lg:top-33 lg:left-150 bottom-3 w-[50px] h-[55px] bg-amber-100"></div>
                             </div>
-                            <div className="absolute z-0 hidden lg:block rounded-br-full  lg:right-90 xl:right-128 bottom-3 w-[50px] h-[55px] bg-amber-100"></div>
-                    </div>
                     </div>
                   </div>
                 <div className="px-8 pt-16 lg:pt-32 pb-32 bg-amber-100 bg-gradient-to-b from-amber-100 to-amber-50">
@@ -112,56 +112,56 @@ const AboutComponent = () => {
                         </div>
                         
                         <div className="pt-12 flex-1 flex-col space-y-4 lg:pt-0">
+                            <div className="flex items-center justify-left pt-4 space-x-2">
+                               <h1 className="text-md  text-amber-900 font-semibold">We welcome you to ACA with</h1> 
+                               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#7B3306" className="size-6">
+                                    <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+                                </svg>
+                            </div>
                             <p className="leading-relaxed text-amber-950 text-md">
                                 At American Christian Academy, our dedicated teachers continually grow in their profession, embracing evidence-based teaching practices that inspire outstanding academic achievement while nurturing each student's intellectual, physical, social, and spiritual development. Supported by a stable and committed faculty, strong partnerships with the business community, and a caring environment affectionately known by many alumni as their "second home," we prepare students with the knowledge, character, and 21st-century skills needed to excel in an ever-changing world.
                             </p>
                             <p className="leading-relaxed text-amber-950 text-md">
                                 As generations of families continue to place their trust in ACA—including the children of our pioneering alumni—we celebrate a legacy of excellence, faith, and lifelong relationships that spans decades. We remain steadfast in our commitment to helping every child discover and develop their God-given potential, ensuring that every student becomes a cherished part of the ACA family while looking to the future with confidence, hope, and unwavering trust in our Lord Jesus Christ.
                             </p>
-                            <div className="flex justify-center pt-4 space-x-2">
-                               <h1 className="text-lg text-amber-900 font-semibold">We welcome you to ACA with</h1>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#7B3306" class="size-6">
-                                            <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
-                                        </svg>
-                            </div>
                         </div>
 
                     </div>
                 </div>
                 
-                <div className="px-8 pt-2  lg:pt-32 pb-300 lg:pb-150 bg-amber-100 bg-gradient-to-b from-amber-100 to-amber-50">
+                <div className="px-8 pt-2  lg:pt-32 pb-300 md:pb-250 lg:pb-150 bg-amber-100 bg-gradient-to-b from-amber-100 to-amber-50">
                     <h6 className="pb-4 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">MEET OUR GOVERNING BOARD</h6>
-                    <div className="grid grid-cols-1 lg:grid-cols-6 auto-rows-fr  gap-16">
-                         <div className="col-span-2  relative shadow-2xl  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
+                    <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-6 auto-rows-fr  gap-16">
+                         <div className=" md:col-span-1 lg:col-span-2  relative shadow-2xl  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
                              <div className="shadow-xl absolute  bottom-0   inset-0  p-4 bg-amber-950 text-amber-50 flex items-center justify-center ">
-                                <h5 className="pl-4 font-archivo text-3xl md:text-7xl lg:text-3xl md:leading-20 lg:leading-10">Dedicated to Governance, Committed to Excellence</h5>
+                                <h5 className="pl-4 font-archivo text-3xl md:text-4xl lg:text-3xl lg:leading-10">A Great Team Of Leaders Dedicated To Governance And Committed to Excellence</h5>
                             </div>
                         </div>
-                        <div className="col-span-2  relative shadow-2xl  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
+                        <div className="md:col-span-1 lg:col-span-2  relative shadow-2xl  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
                             <img src={HeadOfSchool} className="h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-amber-950 text-amber-50 flex items-center justify-center ">
                                 <h5>Dr Equi & Karen Nwulu [Head Of School & Principal]</h5>
                             </div>
                         </div>
-                        <div className="col-span-2 relative  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
+                        <div className="md:col-span-1 lg:col-span-2 relative  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
                             <img src={boardMember1} className="h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-amber-950 text-amber-50 flex items-center justify-center ">
                                 <h5>Dr Bankole Shodipo</h5>
                             </div>
                         </div>
-                        <div className="col-span-2 relative  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
+                        <div className="md:col-span-1 lg:col-span-2 relative  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
                             <img src={boardMember2} className="h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-amber-950 text-amber-50 flex items-center justify-center ">
                                 <h5>Mr. Lucky James </h5>
                             </div>
                         </div>
-                         <div className="col-span-2 relative  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
+                         <div className="md:col-span-1 lg:col-span-2 relative  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
                             <img src={boardMember3} className="h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-amber-950 text-amber-50 flex items-center justify-center ">
                                 <h5>Janice Okpanachi</h5>
                             </div>
                         </div>
-                         <div className="col-span-2 relative  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
+                         <div className="md:col-span-1 lg:col-span-2 relative  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
                             <img src={boardMember4} className="h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-amber-950 text-amber-50 flex items-center justify-center ">
                                 <h5>Dr Equi & Karen Nwulu</h5>
