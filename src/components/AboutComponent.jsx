@@ -12,7 +12,7 @@ const AboutComponent = () => {
     return(
         <>
             <div className="pb-20">
-                <div className="relative mt-20 md:mt-12 lg:mt-0  w-full h-[250px]  lg:h-[500px]">
+                <div className="relative mt-18 md:mt-12  lg:mt-0  w-full h-[250px]  lg:h-[500px]">
                     <img src={AcaGroup} className="w-full h-full object-cover" />
                     <div className="absolute inset-0 bg-amber-950 opacity-80"></div>
                     <div className="absolute inset-0 lg:pt-20 flex flex-col items-left justify-center">
@@ -131,10 +131,10 @@ const AboutComponent = () => {
                 
                 <div className="px-8 pt-2  lg:pt-32 pb-300 md:pb-250 lg:pb-150 bg-amber-100 bg-gradient-to-b from-amber-100 to-amber-50">
                     <h6 className="pb-4 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">MEET OUR GOVERNING BOARD</h6>
-                    <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-6 auto-rows-fr  gap-16">
+                    <div className="grid grid-cols-1 min-[600px]:grid-cols-2   md:grid-cols-2 lg:grid-cols-6 auto-rows-fr  gap-16">
                          <div className=" md:col-span-1 lg:col-span-2  relative shadow-2xl  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
                              <div className="shadow-xl absolute  bottom-0   inset-0  p-4 bg-amber-950 text-amber-50 flex items-center justify-center ">
-                                <h5 className="pl-4 font-archivo text-3xl md:text-4xl lg:text-3xl lg:leading-10">A Great Team Of Leaders Dedicated To Governance And Committed to Excellence</h5>
+                                <h5 className="pl-4 font-archivo min-[600px]:text-xl text-3xl md:text-4xl lg:text-3xl lg:leading-10">A Great Team Of Leaders Dedicated To Governance And Committed to Excellence</h5>
                             </div>
                         </div>
                         <div className="md:col-span-1 lg:col-span-2  relative shadow-2xl  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
@@ -158,13 +158,13 @@ const AboutComponent = () => {
                          <div className="md:col-span-1 lg:col-span-2 relative  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
                             <img src={boardMember3} className="h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-amber-950 text-amber-50 flex items-center justify-center ">
-                                <h5>Janice Okpanachi</h5>
+                                <h5>Dr. Christian Happi</h5>
                             </div>
                         </div>
                          <div className="md:col-span-1 lg:col-span-2 relative  border-amber-950 flex-1 rounded-lg shadow-2xl overflow-hidden">
                             <img src={boardMember4} className="h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-amber-950 text-amber-50 flex items-center justify-center ">
-                                <h5>Dr Equi & Karen Nwulu</h5>
+                                <h5>Janice Okpanachi</h5>
                             </div>
                         </div>
                       
