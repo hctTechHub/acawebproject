@@ -12,7 +12,7 @@ const AboutComponent = () => {
     return(
         <>
             <div className="pb-20">
-                <div className="relative mt-18 md:mt-12  lg:mt-0  w-full h-[250px]  lg:h-[500px]">
+                <div className="relative mt-18 min-[600px]:max-[639px]:mt-20  min-[640px]:max-[768px]:mt-12 md:mt-12  lg:mt-0  w-full h-[250px]  lg:h-[500px]">
                     <img src={AcaGroup} className="w-full h-full object-cover" />
                     <div className="absolute inset-0 bg-amber-950 opacity-80"></div>
                     <div className="absolute inset-0 lg:pt-20 flex flex-col items-left justify-center">
