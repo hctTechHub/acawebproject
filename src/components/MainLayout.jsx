@@ -8,7 +8,6 @@ const MainLayout = () => {
            
                 <HeaderComponent />
                     <Outlet/>
-                <FooterComponent />
                 
             
         </div>
