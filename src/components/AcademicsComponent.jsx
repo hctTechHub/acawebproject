@@ -23,7 +23,7 @@ const AcademicsComponent = () => {
                             <div className="absolute top-0 z-10  mb-10  ml-8 lg:ml-8 p-4  rounded-lg lg:rounded-tr-4xl lg:rounded-bl-4xl  bg-amber-900 w-[300px] md:w-[400px] lg:w-[600px] opacity-90">
                                 <p className="px-8 font-archivo lg:leading-10 text-md  lg:text-4xl  text-amber-50">Empowering Every Student For Academic Excellence</p>
                             </div>
-                            <div className="absolute  z-0   rounded-br-full top-25 left-75  md:top-20 md:left-100 lg:top-33 lg:left-150 bottom-3 w-[50px] h-[55px] bg-amber-100"></div>
+                            <div className="absolute  z-0   rounded-br-full top-25 left-75  md:top-15 md:left-100 lg:top-33 lg:left-150 bottom-3 w-[50px] h-[55px] bg-amber-100"></div>
                         </div>
                     </div>
                 </div>
@@ -50,11 +50,11 @@ const AcademicsComponent = () => {
                         <h6 className="text-amber-900 text-sm tracking-wide font-extrabold opacity-80">OUR SCHOOLS</h6>
                         <div className="pt-4 lg:pt-8 pb-10 lg:pb-40 flex flex-col gap-32 lg:flex-row">
                             <div className=" min-h-[200px]  flex-1  flex flex-col">
-                                    <div className="relative  flex-1 flex  justify-center lg:justify-end">
-                                        <div className="p-4 w-full  flex flex-col   lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
+                                    <div className="relative  flex-1 flex  justify-center md:justify-start lg:justify-end">
+                                        <div className="p-4 w-full  flex flex-col   md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
                                             <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>PRE-SCHOOL</h3></div>
                                         </div>
-                                        <div className="absolute w-[95%] h-full lg:w-[270px] lg:h-[270px] top-25 lg:left-15 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
+                                        <div className="absolute w-[95%] h-full  md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-25 md:left-45 lg:left-15 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
                                                 <img src={AcaElementary} alt="img" className="h-full w-full object-cover" />
                                         </div>
                                     </div>
@@ -79,10 +79,10 @@ const AcademicsComponent = () => {
                             </div>
                             <div className="min-h-[200px]  flex-1 order-1 lg:order-2 flex flex-col">
                                     <div className="relative flex-1 flex lg:justify-start">
-                                        <div className="p-4 flex flex-col w-full lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-300 bg-amber-900 text-amber-50">
+                                        <div className="p-4 flex flex-col w-full  md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-300 bg-amber-900 text-amber-50">
                                             <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>ELEMENTARY SCHOOL</h3></div>
                                         </div>
-                                        <div className="absolute w-[95%] h-full lg:w-[270px] lg:h-[270px] top-20 left-2 lg:left-40 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
+                                        <div className="absolute w-[95%] h-full  md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-20 left-2  md:left-40 lg:left-40 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
                                                 <img src={AcaElementary3} className="h-full w-full object-cover" alt="img"/>
                                         </div>
                                     </div>
@@ -91,11 +91,11 @@ const AcademicsComponent = () => {
                         {/**Middle School */}
                         <div className="pt-8 pb-10 lg:pb-40 flex flex-col gap-32 lg:flex-row  lg:space-x-8">
                             <div className="min-h-[200px] flex-1  flex flex-col">
-                                    <div className="relative h-full flex-1 flex justify-end">
-                                        <div className="p-4 flex flex-col w-full  lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
+                                    <div className="relative h-full flex-1 flex md:justify-start justify-end">
+                                        <div className="p-4 flex flex-col w-full md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
                                             <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>MIDDLE SCHOOL</h3></div>
                                         </div>
-                                        <div className="absolute w-[95%] h-full lg:w-[270px] lg:h-[270px] top-20 left-2 lg:left-15 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
+                                        <div className="absolute w-[95%] h-full  md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-20 left-2 md:left-45 lg:left-15 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
                                                 <img src={AcaHighSchool2} alt="img" className="h-full w-full object-cover" />
                                         </div>
                                     </div>
@@ -122,10 +122,10 @@ const AcademicsComponent = () => {
                             <div className="flex-1  order-1 lg:order-2 flex flex-col">
                                 <div className="min-h-[200px]  flex-1 order-1 lg:order-2 flex flex-col">
                                     <div className="relative flex-1 flex lg:justify-start">
-                                        <div className="p-4 flex flex-col w-full lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-300 bg-amber-900 text-amber-50">
+                                        <div className="p-4 flex flex-col w-full  md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-300 bg-amber-900 text-amber-50">
                                             <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>High SCHOOL</h3></div>
                                         </div>
-                                        <div className="absolute w-[95%] h-full lg:w-[270px] lg:h-[270px] top-20 left-2 lg:left-40 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
+                                        <div className="absolute w-[95%] h-full md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-20 left-2 md:left-40 lg:left-40 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
                                                 <img src={AcaHighSchool1} className="h-full w-full object-cover" alt="img"/>
                                         </div>
                                     </div>
@@ -138,11 +138,11 @@ const AcademicsComponent = () => {
                          <div className="flex-col flex-1">
                                 <h6 className="pb-4 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">OUR CLUBS</h6>
                                 <p className="text-4xl sm:text-4xl lg:text-5xl font-semibold text-amber-950">Beyond The Classroom, Discover Your Gifts</p>
-                                <div className="p-8 grid sm:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 gap-3">
-                                    <div className="col-span-2  lg:row-span-2 rounded-xl overflow-hidden shadow-2xl">
+                                <div className="p-8 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                                    <div className="col-span-2  md:col-span-1 lg:row-span-2 rounded-xl overflow-hidden shadow-2xl">
                                         <img src={sport} className="h-full w-full object-cover"  alt='img' />
                                     </div>
-                                    <div className="col-span-2 rounded-xl overflow-hidden shadow-2xl">
+                                    <div className="col-span-2 md:col-span-1 rounded-xl overflow-hidden shadow-2xl">
                                         <img src={lab} className="h-full w-full object-cover" alt='img' />
                                     </div>
                                     <div className="rounded-xl overflow-hidden shadow-2xl">
@@ -204,15 +204,15 @@ const AcademicsComponent = () => {
                                 <div className="flex-1 text-amber-950">
                                     <p className="text-md leading-relaxed">At ACA, we believe our students are gifted with remarkable intelligence, talent, and potential. Year after year, they demonstrate academic excellence through outstanding performances in examinations, competitions, and various fields of learning, earning recognition both within and beyond our school community. We celebrate not only the awards, distinctions, and achievements that reflect their excellence, but also the dedication, perseverance, discipline, and hard work behind every success. Above all, we give God the glory for the wisdom, abilities, and opportunities that enable our students to strive for excellence and make a meaningful impact in the world.</p>
                                 </div>
-                                <div className="relative flex-1">
+                                <div className="mt-8 lg:mt-0 relative flex-1">
                                         <div className="absolute h-6 w-6 lg:h-8 lg:w-8 bg-amber-50 left-2 top-2"></div>
-                                        <div className="px-12  flex items-center justify-center h-full rounded-xl bg-amber-950 text-amber-50">
-                                                <p className="text-2xl lg:text-4xl text-center lg:leading-12.5">Celebrating Bright Minds and Bold Achievements</p>
+                                        <div className="flex items-center justify-center h-full rounded-xl bg-amber-950 text-amber-50">
+                                                <p className="p-8 md:leading-relaxed text-2xl md:text-4xl text-center lg:leading-12.5">Celebrating Bright Minds and Bold Achievements</p>
                                         </div>
                                          <div className="absolute h-6 w-6 lg:h-8 lg:w-8 bg-amber-50 right-2 bottom-2"></div>
                                 </div>
                             </div>
-                            <div className="pt-16 grid grid-cols-1 lg:grid-cols-3 gap-4 auto-rows-fr">
+                            <div className="pt-16 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-fr">
                                 <div className="relative rounded-xl overflow-hidden">
                                     <div className="p-8 absolute bottom-0   text-amber-50 w-full bg-amber-900">
                                        <h4 className="text-center font-semibold">IGCSE Best in Nigeria Award</h4>
