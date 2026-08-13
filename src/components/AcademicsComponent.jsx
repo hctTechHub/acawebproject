@@ -3,6 +3,9 @@ import AcaElementary from "../assets/images/acaElementary2.png"
 import AcaHighSchool2 from "../assets/images/acaHighSchool2.jpg"
 import AcaHighSchool1 from "../assets/images/acaHighSchool1.jpg"
 import AcaElementary3 from "../assets/images/acaElementary3.png"
+import sport from "../assets/images/sport.png"
+import performance from "../assets/images/performance.png"
+import lab from "../assets/images/lab.jpg"
 
 const AcademicsComponent = () => {
 
@@ -10,7 +13,7 @@ const AcademicsComponent = () => {
 
     return(
         <>
-            <div className="pb-200 flex flex-col">
+            <div className=" flex flex-col">
                 <div className="relative mt-18 min-[600px]:max-[639px]:mt-20  min-[640px]:max-[768px]:mt-12 md:mt-12  lg:mt-0  w-full h-[250px]  lg:h-[500px]">
                     <img src={AcaHighSchool3} className="w-full h-full object-cover" />
                     <div className="absolute inset-0 bg-amber-950 opacity-80"></div>
@@ -24,11 +27,11 @@ const AcademicsComponent = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex-1  min-h-screen px-12 flex-col space-y-40 pt-18 bg-amber-100 bg-gradient-to-b from-amber-100 to-amber-50">
-                    <div className="flex space-x-8">
+                <div className="flex-1  min-h-screen px-12 flex-col space-y-10  md:space-y-10 lg:space-y-30 pt-18 bg-amber-100 bg-gradient-to-b from-amber-100 to-amber-50">
+                    <div className="flex flex-col space-y-8 lg:space-y-0 lg:flex-row  lg:space-x-8">
                          <div className="flex-1">
                                 <h6 className="pb-4 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">THE ACA LEARNING EXPERIENCE</h6>
-                                <p className="text-4xl sm:text-4xl lg:text-5xl font-semibold text-amber-950">Where Truth, Knowledge, and Wisdom Inspire Excellence.</p>
+                                <p className="text-4xl sm:text-4xl lg:text-6xl font-semibold text-amber-950">Where Truth, Knowledge, and Wisdom Inspire Excellence.</p>
                               </div>
                               <div className="flex-1 leading-relaxed">
                                   <p className="text-amber-950 text-md">
@@ -43,16 +46,16 @@ const AcademicsComponent = () => {
                     </div>
 
                     {/**Pre-School */}
-                    <div className="pt-8">
+                    <div className=" pt-8 lg:pt-0 ">
                         <h6 className="text-amber-900 text-sm tracking-wide font-extrabold opacity-80">OUR SCHOOLS</h6>
-                        <div className="pt-8 pb-20 flex h-screen space-x-8">
-                            <div className="flex-1  flex flex-col">
-                                    <div className="relative  flex-1 flex justify-center">
-                                        <div className="p-4 flex flex-col w-1/2 h-2/3 rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
-                                            <div className="p-2 rounded-xl text-lg font-semibold bg-amber-50 text-amber-950"><h3>PRE-SCHOOL</h3></div>
+                        <div className="pt-4 lg:pt-8 pb-10 lg:pb-40 flex flex-col gap-32 lg:flex-row">
+                            <div className=" min-h-[200px]  flex-1  flex flex-col">
+                                    <div className="relative  flex-1 flex  justify-center lg:justify-end">
+                                        <div className="p-4 w-full  flex flex-col   lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
+                                            <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>PRE-SCHOOL</h3></div>
                                         </div>
-                                        <div className="absolute w-1/2 h-[70%] top-20 left-10 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
-                                                <img src={AcaElementary} alt="img" className="h-full object-cover" />
+                                        <div className="absolute w-[95%] h-full lg:w-[270px] lg:h-[270px] top-25 lg:left-15 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
+                                                <img src={AcaElementary} alt="img" className="h-full w-full object-cover" />
                                         </div>
                                     </div>
                                 </div>
@@ -65,8 +68,8 @@ const AcademicsComponent = () => {
                         </div>
 
                         {/**Elementary School */}
-                        <div className="pt-8 pb-32 flex h-screen space-x-8">
-                            <div className="flex-1  leading-relaxed">
+                        <div className="pt-8 pb-10 lg:pb-40 flex flex-col gap-32 lg:flex-row lg:space-x-8">
+                            <div className="flex-1 order-2  lg:order-1 leading-relaxed">
                                 <h6 className="pb-2 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">Elementary School</h6>
                                 <p className="text-amber-950 text-md">
                                     <span className="inline-block bg-amber-200 p-1"><strong>American Christian Academy (ACA)</strong></span> Elementary School is dedicated to providing an excellent, student-centered education.
@@ -74,26 +77,26 @@ const AcademicsComponent = () => {
                                 </p>
                                 <a href="#" className=" inline-block rounded-lg p-2 mt-2 bg-amber-950 text-amber-50">Learn more</a>
                             </div>
-                            <div className="flex-1  flex flex-col">
-                                    <div className="relative  flex-1 flex justify-end">
-                                        <div className="p-4 flex flex-col w-1/2 h-2/3 rounded-xl drop-shadow-2xl drop-shadow-amber-300 bg-amber-900 text-amber-50">
-                                            <div className="p-2 rounded-xl text-lg font-semibold bg-amber-50 text-amber-950"><h3>ELEMENTARY SCHOOL</h3></div>
+                            <div className="min-h-[200px]  flex-1 order-1 lg:order-2 flex flex-col">
+                                    <div className="relative flex-1 flex lg:justify-start">
+                                        <div className="p-4 flex flex-col w-full lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-300 bg-amber-900 text-amber-50">
+                                            <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>ELEMENTARY SCHOOL</h3></div>
                                         </div>
-                                        <div className="absolute w-1/2 h-[70%] top-20 right-20 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
-                                                <img src={AcaElementary3} className="h-full object-cover" alt="img"/>
+                                        <div className="absolute w-[95%] h-full lg:w-[270px] lg:h-[270px] top-20 left-2 lg:left-40 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
+                                                <img src={AcaElementary3} className="h-full w-full object-cover" alt="img"/>
                                         </div>
                                     </div>
                                 </div>
                         </div>
                         {/**Middle School */}
-                        <div className="pt-8 pb-20 flex h-screen space-x-8">
-                            <div className="flex-1  flex flex-col">
-                                    <div className="relative  flex-1 flex justify-center">
-                                        <div className="p-4 flex flex-col w-1/2 h-2/3 rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
-                                            <div className="p-2 rounded-xl text-lg font-semibold bg-amber-50 text-amber-950"><h3>MIDDLE SCHOOL</h3></div>
+                        <div className="pt-8 pb-10 lg:pb-40 flex flex-col gap-32 lg:flex-row  lg:space-x-8">
+                            <div className="min-h-[200px] flex-1  flex flex-col">
+                                    <div className="relative h-full flex-1 flex justify-end">
+                                        <div className="p-4 flex flex-col w-full  lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
+                                            <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>MIDDLE SCHOOL</h3></div>
                                         </div>
-                                        <div className="absolute w-1/2 h-[70%] top-20 left-10 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
-                                                <img src={AcaHighSchool2} alt="img" className="h-full object-cover" />
+                                        <div className="absolute w-[95%] h-full lg:w-[270px] lg:h-[270px] top-20 left-2 lg:left-15 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
+                                                <img src={AcaHighSchool2} alt="img" className="h-full w-full object-cover" />
                                         </div>
                                     </div>
                                 </div>
@@ -107,8 +110,8 @@ const AcademicsComponent = () => {
                         </div>
 
                         {/**High School */}
-                        <div className="pt-8 pb-32 flex h-screen space-x-8">
-                            <div className="flex-1  leading-relaxed">
+                        <div className="pt-8 pb-10 lg:pb-20 flex flex-col lg:flex-row min-h-screen items-stretch gap-32 lg:space-x-8">
+                            <div className="flex-1 order-2 lg:order-1 leading-relaxed">
                                 <h6 className="pb-2 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">HIGH SCHOOL</h6>
                                 <p className="text-amber-950 text-md">
                                     <span className="inline-block bg-amber-200 p-1"><strong>American Christian Academy (ACA)</strong></span> 
@@ -116,23 +119,40 @@ const AcademicsComponent = () => {
                                 </p>
                                     <a href="#" className="inline-block p-2 mt-2 rounded-lg bg-amber-950 text-amber-50">Learn more</a>
                             </div>
-                            <div className="flex-1  flex flex-col">
-                                    <div className="relative  flex-1 flex justify-end">
-                                        <div className="p-4 flex flex-col w-1/2 h-2/3 rounded-xl drop-shadow-2xl drop-shadow-amber-300 bg-amber-900 text-amber-50">
-                                            <div className="p-2 rounded-xl text-lg font-semibold bg-amber-50 text-amber-950"><h3>HIGH SCHOOL</h3></div>
+                            <div className="flex-1  order-1 lg:order-2 flex flex-col">
+                                <div className="min-h-[200px]  flex-1 order-1 lg:order-2 flex flex-col">
+                                    <div className="relative flex-1 flex lg:justify-start">
+                                        <div className="p-4 flex flex-col w-full lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-300 bg-amber-900 text-amber-50">
+                                            <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>High SCHOOL</h3></div>
                                         </div>
-                                        <div className="absolute w-1/2 h-[70%] top-20 right-20 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
-                                                <img src={AcaHighSchool1} alt="img" className="h-full object-cover" />
+                                        <div className="absolute w-[95%] h-full lg:w-[270px] lg:h-[270px] top-20 left-2 lg:left-40 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
+                                                <img src={AcaHighSchool1} className="h-full w-full object-cover" alt="img"/>
                                         </div>
                                     </div>
+                                </div>
                                 </div>
                              
                         </div>
                         {/**ACA CLUBS */}
-                           <div className="flex space-x-8">
-                         <div className="flex-1">
+                           <div className="flex flex-col lg:flex-row lg:space-x-12">
+                         <div className="flex-col flex-1">
                                 <h6 className="pb-4 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">OUR CLUBS</h6>
                                 <p className="text-4xl sm:text-4xl lg:text-5xl font-semibold text-amber-950">Beyond The Classroom, Discover Your Gifts</p>
+                                <div className="p-8 grid sm:grid-cols-2 lg:grid-rows-2 lg:grid-cols-3 gap-3">
+                                    <div className="col-span-2  lg:row-span-2 rounded-xl overflow-hidden shadow-2xl">
+                                        <img src={sport} className="h-full w-full object-cover"  alt='img' />
+                                    </div>
+                                    <div className="col-span-2 rounded-xl overflow-hidden shadow-2xl">
+                                        <img src={lab} className="h-full w-full object-cover" alt='img' />
+                                    </div>
+                                    <div className="rounded-xl overflow-hidden shadow-2xl">
+                                        <img src={performance} className="h-full w-full object-cover" alt='img' />
+                                    </div>
+                                    <div className="rounded-xl overflow-hidden shadow-2xl">
+                                        <img src={AcaHighSchool2} className="h-full w-full object-cover" alt='img' />
+                                    </div>
+                                   
+                                </div>
                               </div>
                               <div className="flex-1 leading-relaxed">
                                   <p className="text-amber-950 text-md">
@@ -176,6 +196,57 @@ const AcademicsComponent = () => {
 
                                     </ul>
                               </div>
+                        </div>
+                        {/**ACA students achievements*/}
+                        <div className="pt-20 lg:pt-36 pb-300 lg:pb-150">
+                            <h6 className="pb-4 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">ACADEMIC ACHIEVEMENTS</h6>
+                            <div className="flex flex-col lg:flex-row  lg:space-x-12">
+                                <div className="flex-1 text-amber-950">
+                                    <p className="text-md leading-relaxed">At ACA, we believe our students are gifted with remarkable intelligence, talent, and potential. Year after year, they demonstrate academic excellence through outstanding performances in examinations, competitions, and various fields of learning, earning recognition both within and beyond our school community. We celebrate not only the awards, distinctions, and achievements that reflect their excellence, but also the dedication, perseverance, discipline, and hard work behind every success. Above all, we give God the glory for the wisdom, abilities, and opportunities that enable our students to strive for excellence and make a meaningful impact in the world.</p>
+                                </div>
+                                <div className="relative flex-1">
+                                        <div className="absolute h-6 w-6 lg:h-8 lg:w-8 bg-amber-50 left-2 top-2"></div>
+                                        <div className="px-12  flex items-center justify-center h-full rounded-xl bg-amber-950 text-amber-50">
+                                                <p className="text-2xl lg:text-4xl text-center lg:leading-12.5">Celebrating Bright Minds and Bold Achievements</p>
+                                        </div>
+                                         <div className="absolute h-6 w-6 lg:h-8 lg:w-8 bg-amber-50 right-2 bottom-2"></div>
+                                </div>
+                            </div>
+                            <div className="pt-16 grid grid-cols-1 lg:grid-cols-3 gap-4 auto-rows-fr">
+                                <div className="relative rounded-xl overflow-hidden">
+                                    <div className="p-8 absolute bottom-0   text-amber-50 w-full bg-amber-900">
+                                       <h4 className="text-center font-semibold">IGCSE Best in Nigeria Award</h4>
+                                    </div>
+                                    <div className=""> 
+                                        <img src={AcaElementary} alt="img"></img>
+                                    </div>
+
+                                </div>
+                                <div className="relative rounded-xl overflow-hidden">
+                                    <div className="p-8 absolute bottom-0   text-amber-50 w-full bg-amber-900">
+                                       <h4 className="text-center font-semibold">IGCSE Best in Nigeria Award</h4>
+                                    </div>
+                                    <div className=""> 
+                                        <img src={AcaElementary} alt="img"></img>
+                                    </div>
+
+                                </div>
+                                 <div className="relative rounded-xl overflow-hidden ">
+                                    <div className="p-8 not-last:absolute bottom-0   text-amber-50 w-full bg-amber-900">
+                                       <h4 className="text-center font-semibold">IGCSE Best in Nigeria Award</h4>
+                                    </div>
+                                    <div className=""> 
+                                        <img src={AcaElementary} alt="img"></img>
+                                    </div>
+
+                                </div>
+                                
+                                
+                                
+                                
+
+
+                            </div>
                         </div>
                     </div>
                 </div>
