@@ -50,11 +50,11 @@ const AcademicsComponent = () => {
                         <h6 className="text-amber-900 text-sm tracking-wide font-extrabold opacity-80">OUR SCHOOLS</h6>
                         <div className="pt-4 lg:pt-8 pb-10 lg:pb-40 flex flex-col gap-32 lg:flex-row">
                             <div className=" min-h-[200px]  flex-1  flex flex-col">
-                                    <div className="relative  flex-1 flex  justify-center md:justify-start lg:justify-end">
-                                        <div className="p-4 w-full  flex flex-col   md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
+                                    <div className="relative  flex-1 flex  justify-center min-[500px]:max-[768px]:justify-start md:justify-start lg:justify-end">
+                                        <div className="p-4 w-full  flex flex-col  min-[500px]:max-[767px]:w-[270px] min-[500px]:max-[767px]:h-[270px] md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
                                             <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>PRE-SCHOOL</h3></div>
                                         </div>
-                                        <div className="absolute w-[95%] h-full  md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-25 md:left-45 lg:left-15 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
+                                        <div className="absolute w-[95%] h-full min-[500px]:max-[768px]:w-[270px] min-[500px]:max-[768px]:h-[270px] md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-25 min-[500px]:max-[768px]:left-40 md:left-45 lg:left-15 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
                                                 <img src={AcaElementary} alt="img" className="h-full w-full object-cover" />
                                         </div>
                                     </div>
@@ -78,11 +78,11 @@ const AcademicsComponent = () => {
                                 <a href="#" className=" inline-block rounded-lg p-2 mt-2 bg-amber-950 text-amber-50">Learn more</a>
                             </div>
                             <div className="min-h-[200px]  flex-1 order-1 lg:order-2 flex flex-col">
-                                    <div className="relative flex-1 flex lg:justify-start">
-                                        <div className="p-4 flex flex-col w-full  md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-300 bg-amber-900 text-amber-50">
+                                    <div className="relative flex-1 flex min-[500px]:max-[768px]:justify-start lg:justify-start">
+                                        <div className="p-4 flex flex-col w-full  min-[500px]:max-[768px]:w-[270px] min-[500px]:max-[768px]:h-[270px] md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-300 bg-amber-900 text-amber-50">
                                             <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>ELEMENTARY SCHOOL</h3></div>
                                         </div>
-                                        <div className="absolute w-[95%] h-full  md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-20 left-2  md:left-40 lg:left-40 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
+                                        <div className="absolute w-[95%] h-full min-[500px]:max-[768px]:w-[270px] min-[500px]:max-[768px]:h-[270px] md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-20 left-2 min-[500px]:max-[768px]:left-40 md:left-40 lg:left-40 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
                                                 <img src={AcaElementary3} className="h-full w-full object-cover" alt="img"/>
                                         </div>
                                     </div>
@@ -91,11 +91,11 @@ const AcademicsComponent = () => {
                         {/**Middle School */}
                         <div className="pt-8 pb-10 lg:pb-40 flex flex-col gap-32 lg:flex-row  lg:space-x-8">
                             <div className="min-h-[200px] flex-1  flex flex-col">
-                                    <div className="relative h-full flex-1 flex md:justify-start justify-end">
-                                        <div className="p-4 flex flex-col w-full md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
+                                    <div className="relative h-full flex-1 flex min-[500px]:max-[768px]:justify-start md:justify-start justify-end">
+                                        <div className="p-4 flex flex-col w-full min-[500px]:max-[768px]:w-[270px] min-[500px]:max-[768px]:h-[270px] md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
                                             <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>MIDDLE SCHOOL</h3></div>
                                         </div>
-                                        <div className="absolute w-[95%] h-full  md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-20 left-2 md:left-45 lg:left-15 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
+                                        <div className="absolute w-[95%] h-full min-[500px]:max-[768px]:w-[270px] min-[500px]:max-[768px]:h-[270px] md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-20 left-2 min-[500px]:max-[768px]:left-40 md:left-45 lg:left-15 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
                                                 <img src={AcaHighSchool2} alt="img" className="h-full w-full object-cover" />
                                         </div>
                                     </div>
@@ -110,7 +110,7 @@ const AcademicsComponent = () => {
                         </div>
 
                         {/**High School */}
-                        <div className="pt-8 pb-10 lg:pb-20 flex flex-col lg:flex-row min-h-screen items-stretch gap-32 lg:space-x-8">
+                        <div className="pt-8  pb-10 lg:pb-20 flex flex-col lg:flex-row  gap-32 md:gap-32  lg:space-x-8">
                             <div className="flex-1 order-2 lg:order-1 leading-relaxed">
                                 <h6 className="pb-2 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">HIGH SCHOOL</h6>
                                 <p className="text-amber-950 text-md">
@@ -119,13 +119,13 @@ const AcademicsComponent = () => {
                                 </p>
                                     <a href="#" className="inline-block p-2 mt-2 rounded-lg bg-amber-950 text-amber-50">Learn more</a>
                             </div>
-                            <div className="flex-1  order-1 lg:order-2 flex flex-col">
+                            <div className="flex-1 md:pb-0 md:mb-0 order-1 lg:order-2 flex flex-col">
                                 <div className="min-h-[200px]  flex-1 order-1 lg:order-2 flex flex-col">
                                     <div className="relative flex-1 flex lg:justify-start">
-                                        <div className="p-4 flex flex-col w-full  md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-300 bg-amber-900 text-amber-50">
-                                            <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>High SCHOOL</h3></div>
+                                        <div className="p-4 flex flex-col w-full min-[500px]:max-[768px]:w-[270px] min-[500px]:max-[768px]:h-[270px] md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-300 bg-amber-900 text-amber-50">
+                                            <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>High SCHOOL </h3></div>
                                         </div>
-                                        <div className="absolute w-[95%] h-full md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-20 left-2 md:left-40 lg:left-40 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
+                                        <div className="absolute w-[95%] h-full min-[500px]:max-[768px]:w-[270px] min-[500px]:max-[768px]:h-[270px] md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-20 left-2 min-[500px]:max-[767px]:left-40 md:left-40 lg:left-40 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
                                                 <img src={AcaHighSchool1} className="h-full w-full object-cover" alt="img"/>
                                         </div>
                                     </div>
@@ -138,11 +138,11 @@ const AcademicsComponent = () => {
                          <div className="flex-col flex-1">
                                 <h6 className="pb-4 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">OUR CLUBS</h6>
                                 <p className="text-4xl sm:text-4xl lg:text-5xl font-semibold text-amber-950">Beyond The Classroom, Discover Your Gifts</p>
-                                <div className="p-8 grid sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                                    <div className="col-span-2  md:col-span-1 lg:row-span-2 rounded-xl overflow-hidden shadow-2xl">
+                                <div className="p-8 grid sm:grid-cols-2 min-[500px]:max-[767px]:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                                    <div className="col-span-2 min-[500px]:max-[767px]:col-span-1 md:col-span-1 lg:row-span-2 rounded-xl overflow-hidden shadow-2xl">
                                         <img src={sport} className="h-full w-full object-cover"  alt='img' />
                                     </div>
-                                    <div className="col-span-2 md:col-span-1 rounded-xl overflow-hidden shadow-2xl">
+                                    <div className="col-span-2 min-[500px]:max-[767px]:col-span-1 md:col-span-1 rounded-xl overflow-hidden shadow-2xl">
                                         <img src={lab} className="h-full w-full object-cover" alt='img' />
                                     </div>
                                     <div className="rounded-xl overflow-hidden shadow-2xl">
