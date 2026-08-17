@@ -49,8 +49,8 @@ const AcademicsComponent = () => {
                     <div className=" pt-8 lg:pt-0 ">
                         <h6 className="text-amber-900 text-sm tracking-wide font-extrabold opacity-80">OUR SCHOOLS</h6>
                         <div className="pt-4 lg:pt-8 pb-10 lg:pb-40 flex flex-col gap-32 lg:flex-row">
-                            <div className=" min-h-[200px]  flex-1  flex flex-col">
-                                    <div className="relative  flex-1 flex  justify-center min-[500px]:max-[768px]:justify-start md:justify-start lg:justify-end">
+                            <div className=" min-h-[200px]  flex-1  flex flex-col xl:items-center">
+                                    <div className="relative  flex-1 flex  justify-center min-[500px]:max-[768px]:justify-end md:justify-end lg:justify-start">
                                         <div className="p-4 w-full  flex flex-col  min-[500px]:max-[767px]:w-[270px] min-[500px]:max-[767px]:h-[270px] md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
                                             <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>PRE-SCHOOL</h3></div>
                                         </div>
@@ -90,12 +90,12 @@ const AcademicsComponent = () => {
                         </div>
                         {/**Middle School */}
                         <div className="pt-8 pb-10 lg:pb-40 flex flex-col gap-32 lg:flex-row  lg:space-x-8">
-                            <div className="min-h-[200px] flex-1  flex flex-col">
-                                    <div className="relative h-full flex-1 flex min-[500px]:max-[768px]:justify-start md:justify-start justify-end">
+                            <div className="min-h-[200px] flex-1  flex flex-col xl:items-center">
+                                    <div className="relative h-full flex-1 flex min-[500px]:max-[768px]:justify-start md:justify-start justify-end lg:justify-center">
                                         <div className="p-4 flex flex-col w-full min-[500px]:max-[768px]:w-[270px] min-[500px]:max-[768px]:h-[270px] md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] rounded-xl drop-shadow-2xl drop-shadow-amber-200 bg-amber-900 text-amber-50">
                                             <div className="p-2 rounded-xl text-md lg:text-lg font-semibold bg-amber-50 text-amber-950"><h3>MIDDLE SCHOOL</h3></div>
                                         </div>
-                                        <div className="absolute w-[95%] h-full min-[500px]:max-[768px]:w-[270px] min-[500px]:max-[768px]:h-[270px] md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-20 left-2 min-[500px]:max-[768px]:left-40 md:left-45 lg:left-15 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
+                                        <div className="absolute flex  w-[95%] h-full min-[500px]:max-[768px]:w-[270px] min-[500px]:max-[768px]:h-[270px] md:w-[270px] md:h-[270px] lg:w-[270px] lg:h-[270px] top-20 left-2 min-[500px]:max-[768px]:left-40 md:left-45 lg:left-15 border-t-5 border-r-5 border-amber-50 rounded-xl overflow-hidden">
                                                 <img src={AcaHighSchool2} alt="img" className="h-full w-full object-cover" />
                                         </div>
                                     </div>
