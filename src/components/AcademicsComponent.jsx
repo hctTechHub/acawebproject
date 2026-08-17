@@ -110,7 +110,7 @@ const AcademicsComponent = () => {
                         </div>
 
                         {/**High School */}
-                        <div className="pt-8  pb-10 lg:pb-20 flex flex-col lg:flex-row  gap-32 md:gap-32  lg:space-x-8">
+                        <div className="pt-8  pb-10 lg:pb-20 xl:pb-65 flex flex-col lg:flex-row  gap-32 md:gap-32  lg:space-x-8">
                             <div className="flex-1 order-2 lg:order-1 leading-relaxed">
                                 <h6 className="pb-2 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">HIGH SCHOOL</h6>
                                 <p className="text-amber-950 text-md">
