@@ -1,9 +1,9 @@
-const ButtonComponent = ({text}) => {
+const ButtonComponent = ({text,getText}) => {
 
 
     return(
         <>
-            <button className="testButton">click to add {text}</button>
+            <button onClick={() => getText()}>click to {text}</button>
         </>
     )
 }

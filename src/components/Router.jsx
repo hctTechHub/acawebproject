@@ -3,6 +3,7 @@ import MainLayout from "./MainLayout"
 import HomeComponent from "./HomeComponent"
 import AboutComponent from './AboutComponent'
 import AcademicsComponent from './AcademicsComponent'
+import BoardingComponent from './BoardingComponent'
 const Router = () => {
     const routes = [
             {
@@ -10,7 +11,8 @@ const Router = () => {
                 children:[
                     {path:"/",element:<HomeComponent />},
                     {path:"/about",element:<AboutComponent />},
-                    {path:"/academics",element:<AcademicsComponent />}
+                    {path:"/academics",element:<AcademicsComponent />},
+                    {path:"/boarding",element:<BoardingComponent/>}
                 ]
                
             }
