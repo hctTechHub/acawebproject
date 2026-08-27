@@ -1,11 +1,10 @@
-import {useRoutes} from 'react-router-dom'
+import {createBrowserRouter} from 'react-router-dom'
 import MainLayout from "./MainLayout"
 import HomeComponent from "./HomeComponent"
 import AboutComponent from './AboutComponent'
 import AcademicsComponent from './AcademicsComponent'
 import BoardingComponent from './BoardingComponent'
-const Router = () => {
-    const routes = [
+const Router = createBrowserRouter([
             {
                 element:<MainLayout />,
                 children:[
@@ -16,9 +15,7 @@ const Router = () => {
                 ]
                
             }
-    ]
+    ])
 
-    return useRoutes(routes)
-}
 
 export default Router
