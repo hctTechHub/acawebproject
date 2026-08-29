@@ -14,7 +14,7 @@ const BoardingComponent = () => {
 
         <>
 
-             <div className="pb-250 bg-gradient-to-b bg-amber-50">
+             <div className="pb-250 lg:pb-160 bg-gradient-to-b bg-amber-50">
                 <div className="relative mt-18 min-[600px]:max-[639px]:mt-20  min-[640px]:max-[768px]:mt-12 md:mt-12  lg:mt-0  w-full h-[250px]  lg:h-[500px]">
                     <img src={WellSpringImg} className="w-full h-full object-cover" />
                         <div className="absolute inset-0 bg-amber-950 opacity-80"></div>

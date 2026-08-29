@@ -1,4 +1,4 @@
-import {Outlet} from "react-router-dom"
+import {Outlet,ScrollRestoration} from "react-router-dom"
 import HeaderComponent from "./HeaderComponent"
 import FooterComponent from "./FooterComponent"
 import HomeComponent from "./HomeComponent"
@@ -8,6 +8,7 @@ const MainLayout = () => {
            
                 <HeaderComponent />
                     <Outlet/>
+                    <ScrollRestoration />
                 <FooterComponent/>
                 
             
