@@ -3,5 +3,22 @@
 
 @theme{
 
-    --font-archivo:"Archivo Black",sans-serif;
+     --color-primary: #69140A;
+     --color-secondary: #FCF6E8;
+     --color-accent: #D4A017;
+     --color-accentDark: #3E1B12;
+     --color-secondaryDark: #1F2937;
+     --color-brand-light: #f3f4f6;
+     --font-archivo:"Archivo Black",sans-serif;
+     --animate-stripes: stripes 1s linear infinite;
+}
+
+@keyframes stripes {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 40px 0;
+    }
 }

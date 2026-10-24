@@ -1,4 +1,4 @@
-import AcaGroup from "../assets/images/aca-group.jpg"
+import AcaGroup2 from "../assets/images/acaGroup2.png"
 import HeadOfSchool from "../assets/images/Head-of-school.webp"
 import boardMember1 from "../assets/images/boardMember1.png"
 import boardMember2 from "../assets/images/boardMember2.webp"
@@ -12,7 +12,32 @@ const AboutComponent = () => {
     return(
         <>
             <div className="pb-20">
-                <div className="relative mt-18 min-[600px]:max-[639px]:mt-20  min-[640px]:max-[768px]:mt-12 md:mt-12  lg:mt-0  w-full h-[250px]  lg:h-[500px]">
+            <div className="bg-primary flex h-[400px] min-h-[600px]">
+                                <div className="relative mt-20 flex flex-col flex-1 h-[320px] ">
+                                    <div className="mt-15 flex items-center justify-center" >
+                                        <h6 className="ml-10 text-3xl text-amber-100 font-archivo">WANT TO LEARN ABOUT ACA?</h6>
+                                    </div>
+                                    <div className= "w-[90%] mx-auto absolute top-30 -right-4 py-5  px-5 z-1 border-8  border-amber-950 bg-secondary">
+                                        
+                                        <h6 className="text-primary font-archivo text-3xl ">RAISING LEADERS</h6>
+                                        <h5 className="text-2xl">Nurturing excellence in learning.</h5>
+                                        <div className="mt-5 py-5 px-10 flex items-center gap-4 rounded-md bg-gray-100/80 backdrop-blur-lg">
+                                            <span className="text-lg text-amber-950">Start You Application Today</span>
+                                            <span className="px-5 py-2 flex gap-2 items-center rounded-md text-amber-50 shadow shadow-lg bg-amber-600 block">Apply Now
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                                    <path fill-rule="evenodd" d="M12 1.5a.75.75 0 0 1 .75.75V4.5a.75.75 0 0 1-1.5 0V2.25A.75.75 0 0 1 12 1.5ZM5.636 4.136a.75.75 0 0 1 1.06 0l1.592 1.591a.75.75 0 0 1-1.061 1.06l-1.591-1.59a.75.75 0 0 1 0-1.061Zm12.728 0a.75.75 0 0 1 0 1.06l-1.591 1.592a.75.75 0 0 1-1.06-1.061l1.59-1.591a.75.75 0 0 1 1.061 0Zm-6.816 4.496a.75.75 0 0 1 .82.311l5.228 7.917a.75.75 0 0 1-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 0 1-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 0 1-1.247-.606l.569-9.47a.75.75 0 0 1 .554-.68ZM3 10.5a.75.75 0 0 1 .75-.75H6a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 10.5Zm14.25 0a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H18a.75.75 0 0 1-.75-.75Zm-8.962 3.712a.75.75 0 0 1 0 1.061l-1.591 1.591a.75.75 0 1 1-1.061-1.06l1.591-1.592a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd" />
+                                                </svg>
+                                            </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="relative mt-25 flex justify-left flex-1  h-[400px]">     
+                        <div className="absolute -bottom-4 right-19 rounded-md shadow-xl shadow-amber-900 bg-amber-100 w-20 h-20"  />
+                        <img className="relative rounded-md w-[85%]  h-full object-cover"  src={AcaGroup2}  /> 
+                        <div className="absolute rounded-md inset-0 w-[85%]  bg-amber-900 opacity-50" />
+                    </div>
+                </div>
+                {/*<div className="relative mt-18 min-[600px]:max-[639px]:mt-20  min-[640px]:max-[768px]:mt-12 md:mt-12  lg:mt-0  w-full h-[250px]  lg:h-[500px]">
                     <img src={AcaGroup} className="w-full h-full object-cover" />
                     <div className="absolute inset-0 bg-amber-950 opacity-80"></div>
                     <div className="absolute inset-0 lg:pt-20 flex flex-col items-left justify-center">
@@ -24,7 +49,7 @@ const AboutComponent = () => {
                                 <div className="absolute  z-0   rounded-br-full top-25 left-75  md:top-20 md:left-100 lg:top-33 lg:left-150 bottom-3 w-[50px] h-[55px] bg-amber-100"></div>
                             </div>
                     </div>
-                  </div>
+                  </div> */}
                 <div className="px-8 pt-16 lg:pt-32 pb-32 bg-amber-100 bg-gradient-to-b from-amber-100 to-amber-50">
                         <h6 className="pb-4 text-amber-900 text-sm tracking-wide font-extrabold opacity-80">OUR JOURNEY</h6>
                         <div className="flex space-x-8 ">

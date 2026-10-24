@@ -1,12 +1,14 @@
 import HeroSection from "./HeroSection"
 import ContentsComponent from "./ContentsComponent"
-const HomeComponent = () => {
+import {useArticles} from "./ArticleProvider"
 
+const HomeComponent = () => {
+    const {articles} = useArticles()
 
     return(
         <>
             <HeroSection/>
-            <ContentsComponent/> 
+            <ContentsComponent articles={articles}/> 
         </>
     )
 }

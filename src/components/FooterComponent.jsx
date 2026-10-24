@@ -3,7 +3,8 @@ const FooterComponent = () => {
     
     return(
         
-                    <div className="px-8 pt-16  absolute bottom-0 flex flex-col w-full  bg-amber-950 text-amber-50"> 
+                <div className="px-8 pt-16 relative  w-full  bg-primary text-secondary"> 
+                    <div className="mx-auto max-w-7xl flex flex-col">
                         <div className="flex flex-col sm:flex-col lg:flex-row  lg:space-x-16">
                           <div className="pb-8 flex flex-col  space-y-8  sm:flex-row lg:flex-row  sm:space-x-64  lg:space-x-16  justify-between">
                             <div className="sm:flex-1 md:flex-1 lg:flex-2 flex  flex-col">
@@ -11,7 +12,7 @@ const FooterComponent = () => {
                                 <p>American Christian Academy (ACA) is an internationally accredited Christian school currently serving creche through twelfth grade students.</p>
                             </div>
                             <div className="sm:flex-1 md:flex-1 lg:flex-1 flex flex-col">
-                                <h5 className="pb-4 text-lg font-semibold text-amber-50">Site Map</h5>
+                                <h5 className="pb-4 text-lg font-semibold text-secondary">Site Map</h5>
                                 <a href="#">Home</a>
                                 <a href="#">About</a>
                                 <a href="#">Academics</a>
@@ -30,18 +31,18 @@ const FooterComponent = () => {
                                 <h5 className="pb-4 text-lg font-semibold">Subscribe For Our News Letter</h5>
                                 <div className="flex flex-col space-y-2">
                                     <label>
-                                        <input className="p-2 bg-amber-800 w-full rounded-lg" placeholder="Email"/>
+                                        <input className="p-2 bg-accentDark w-full rounded-lg placeholder:text-secondary" placeholder="Email"/>
                                     </label>
-                                    <button className="p-2 bg-amber-50 text-amber-950 rounded-lg">Subscribe</button>
+                                    <button className="p-2 bg-secondary text-primary rounded-lg">Click To Subscribe</button>
                                 </div>
                             </div>
 
                         </div>
                      </div>
-                        <div className="border-t-1 border-amber-50"></div>
-                        <div className="flex justify-between py-8">
+                        <div className="border-t-1 border-secondary"></div>
+                        <div className="flex flex-col gap-4 lg:flex-row lg:gap-0 justify-between py-8">
                             <h6 className="text-sm">&copy; 2026 American Christian Academy. All rights reserved.</h6>
-                            <h6 className="text-sm">Designed By <span><strong>HCT HUB</strong></span></h6>
+                            <h6 className="text-sm p-2 w-fit rounded-lg bg-accentDark lg:bg-primary lg:p-0">Designed By <span><strong>HCT HUB</strong></span></h6>
                         </div>
                          <div className="fixed flex items-center justify-center bottom-2 right-2 w-40 h-40 rounded-full bg-transparent">
                             <div className="relative flex items-center justify-center bg-transparent w-30 h-30 rounded-full">
@@ -51,6 +52,7 @@ const FooterComponent = () => {
                             </div>
                         </div>
                     </div>
+                </div>
                     
            
                    
