@@ -2,6 +2,7 @@ import express from "express"
 import Category from "../models/category.js"
 import "dotenv/config"
 import user from "../models/user.js"
+import authMiddleware from "../middleware/AuthenticationHandler.js"
 
 const categoryRouter = express.Router()
 categoryRouter.get("/categories",async (request,response) => {
@@ -16,7 +17,7 @@ categoryRouter.get("/category/:id",async (request,response) => {
 
 
 })
-categoryRouter.post("/create_category", async (request,response) => {
+categoryRouter.post("/create_category",authMiddleware, async (request,response) => {
        const authUserId = request.authUserId
        const {categoryName} = request.body
        const category = {

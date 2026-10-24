@@ -15,12 +15,12 @@ const AuthenticationHandler = async (request,response,next) => {
             return response.status(401).json({error:'Unauthorized User'})
          }
          request.authUserId = getAuthUser.id
+         next()
     }
     catch(error){
         console.error(error)
     }
 
-    next()
 }
 
 export default AuthenticationHandler
