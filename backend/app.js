@@ -12,9 +12,7 @@ import cors from "cors"
 const app = express()
 await dbConn() //wait for db connection
 app.use(express.json())
-app.use(cors({
-    origin:"http://localhost:5173"
-}))
+app.use(cors())
 app.use("/uploads",express.static(path.join(process.cwd(),"uploads")))
 app.use("/api/users",userRouter)
 app.use("/api/users",authMiddleware,categoryRouter)
