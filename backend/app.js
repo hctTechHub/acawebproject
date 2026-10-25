@@ -13,13 +13,13 @@ const app = express()
 await dbConn() //wait for db connection
 app.use(express.json())
 app.use(cors())
-app.use("/",(request,response) =>{
-    response.status(200).json({"success":"acaweb up"})
-})
 app.use("/uploads",express.static(path.join(process.cwd(),"uploads")))
 app.use("/api/users",userRouter)
 app.use("/api/users",categoryRouter)
 app.use("/api/users",articleRouter)
+app.use("/",(request,response) =>{
+    response.status(200).json({"success":"acaweb up"})
+})
 app.use(invalidRouteHandler)
 app.use(errorHandler)
 
