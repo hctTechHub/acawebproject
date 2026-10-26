@@ -8,18 +8,18 @@ const HeroSection = () => {
 return(
     <>
         <div className="relative min-h-screen flex justify-center  bg-white px-2">
-          <div className="flex flex-col w-full sm:flex-col lg:flex-col">
-              <div className="relative  pt-28 flex-1 w-full h-full md:pt-0 px-12 sm:pt-0 sm:pb-5 lg:pt-8">
-                  <div className="flex w-full  h-full flex-col justify-center sm:justify-center md:justify-center lg:justify-center">
+          <div className="flex flex-col w-full sm:flex-col md:flex-col lg:flex-col">
+              <div className="relative  pt-28 flex-1 w-full h-full min-[1032px]:pt-0  md:pt-24 px-12 sm:pt-0 sm:pb-5 lg:pt-8">
+                  <div className="flex w-full  h-full flex-col justify-center  sm:justify-center  md:justify lg:justify-center">
                         {/*<img src={HeroBrushImage} alt="brush-stroke" className="absolute min-[375px]:top-30 top-40 sm:top-45 md:top-70 lg:top-35 h-80  left-2"/>*/}
-                        <h5 className="text-accentDark font-bold sm:text-md md:text-lg lg:text-lg">American Christian Academy</h5>
-                        <h1 className="relative text-primary lg:text-7xl  text-5xl  md:text-8xl sm:text-7xl font-extrabold tracking-wide">Pursuing excellence <span className="text-accentDark">across</span> every endeavor.</h1>
+                        <h5 className="text-accentDark font-bold  sm:text-md md:text-lg lg:text-lg">American Christian Academy</h5>
+                        <h1 className="relative text-primary lg:text-8xl  text-5xl  md:text-8xl sm:text-7xl font-extrabold tracking-wide">Pursuing excellence <span className="text-accentDark">across</span> every endeavor.</h1>
                   </div>
              </div>
               <div className="relative  flex-1   items-center flex flex-col   sm:items-center  sm:flex-col  sm:pl-16 lg:pr-16 lg:py-8">
                 {/**circle */}
                  
-                 <img className="w-full h-full lg:overflow-hidden object-center lg:object-cover" src={HeroImage2} alt='group-of-students' />
+                 <img className="w-full h-full lg:overflow-hidden lg:w-[80%] object-center lg:object-cover" src={HeroImage2} alt='group-of-students' />
                  <div className="absolute bottom-0 left-0 flex items-center justify-center  space-x-8 shadow-2xl sm:shadow-xl md:shadow-xl py-4 w-full    rounded-lg bg-primary backdrop-blur-md">
               <div className="flex items-center  space-x-2 sm:space-x-2 md:space-x-2 lg:space-x-2">
                 <div className="bg-secondary rounded px-2 py-2">
