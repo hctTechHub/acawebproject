@@ -9,7 +9,7 @@ return(
     <>
         <div className="relative min-h-screen flex justify-center  bg-white px-2">
           <div className="flex flex-col w-full sm:flex-col md:flex-col lg:flex-col">
-              <div className="relative  pt-28 flex-1 w-full h-full min-[1032px]:pt-0  md:pt-24 px-12 sm:pt-0 sm:pb-5 lg:pt-8">
+              <div className="relative  pt-28 flex-1 w-full h-full min-[1032px]:pt-0  md:pt-24 px-12 sm:pt-24 sm:pb-5 lg:pt-8">
                   <div className="flex w-full  h-full flex-col justify-center  sm:justify-center  md:justify lg:justify-center">
                         {/*<img src={HeroBrushImage} alt="brush-stroke" className="absolute min-[375px]:top-30 top-40 sm:top-45 md:top-70 lg:top-35 h-80  left-2"/>*/}
                         <h5 className="text-accentDark font-bold  sm:text-md md:text-lg lg:text-lg">American Christian Academy</h5>

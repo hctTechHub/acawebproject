@@ -14,7 +14,7 @@ const AboutComponent = () => {
             <div className="pb-20">
             <div className="bg-primary flex  flex-col sm:flex-col  h-[400px] min-h-[950px]">
                                   <div className="mt-20 sm:mt-15 md:mt-15 lg:mt-15 flex items-center justify-start" >
-                                        <h6 className="pl-10 md:pl-25 lg:pl-25  pb-8 text-lg md:text-3xl lg:text-3xl  text-brand-light font-archivo">WANT TO LEARN ABOUT ACA?</h6>
+                                        <h6 className="pl-5 md:pl-25 lg:pl-25  pb-8 text-md md:text-3xl lg:text-3xl  text-brand-light font-archivo">WANT TO LEARN ABOUT ACA?</h6>
                                     </div>
                                 <div className="relative flex justify-left flex-1  h-[400px]">     
                                     {/*<div className="absolute -bottom-4 right-10 sm:right-17 lg:right-19 lg:rounded-md rounded-md shadow-xl shadow-amber-600 bg-amber-100 w-20 h-20"  />*/}
@@ -23,11 +23,11 @@ const AboutComponent = () => {
                                 </div>
                                 <div className="mt-20  flex flex-col flex-1 h-[320px] ">
                                     <div className= "w-[90%] mx-auto py-5  px-5   rounded-md bg-white">
-                                        <h6 className="text-primary font-archivo text-3xl ">RAISING LEADERS</h6>
-                                        <h5 className="text-2xl md:text-xl text-accentDark">Nurturing excellence in learning.</h5>
-                                        <div className="mt-5 py-5 px-10 flex md:flex-col items-center gap-4 rounded-md bg-primary ">
-                                            <span className="text-lg text-amber-50">Start You Application Today</span>
-                                            <span className="px-5 py-2 flex gap-2 items-center rounded-md text-amber-50 shadow shadow-lg bg-amber-600 block">Apply Now
+                                        <h6 className="text-primary font-archivo text-xl md:text-3xl ">RAISING LEADERS</h6>
+                                        <h5 className="text-md md:text-xl lg:text-2xl text-accentDark">Nurturing excellence in learning.</h5>
+                                        <div className="mt-5 py-5 px:5 md:px-10 flex flex-col sm:flex-col md:flex-col lg:flex-row  lg:justify-center items-center gap-4 rounded-md bg-primary ">
+                                            <span className="text-md text-brand-light md:text-xl md:font-semibold">Start You Application Today</span>
+                                            <span className="px-10 py-2 flex  gap-2 text-md md:text-lg items-center rounded-md text-brand-light shadow-lg shadow-accentDark bg-amber-600 block">Apply Now
                                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
                                                     <path fill-rule="evenodd" d="M12 1.5a.75.75 0 0 1 .75.75V4.5a.75.75 0 0 1-1.5 0V2.25A.75.75 0 0 1 12 1.5ZM5.636 4.136a.75.75 0 0 1 1.06 0l1.592 1.591a.75.75 0 0 1-1.061 1.06l-1.591-1.59a.75.75 0 0 1 0-1.061Zm12.728 0a.75.75 0 0 1 0 1.06l-1.591 1.592a.75.75 0 0 1-1.06-1.061l1.59-1.591a.75.75 0 0 1 1.061 0Zm-6.816 4.496a.75.75 0 0 1 .82.311l5.228 7.917a.75.75 0 0 1-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 0 1-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 0 1-1.247-.606l.569-9.47a.75.75 0 0 1 .554-.68ZM3 10.5a.75.75 0 0 1 .75-.75H6a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 10.5Zm14.25 0a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H18a.75.75 0 0 1-.75-.75Zm-8.962 3.712a.75.75 0 0 1 0 1.061l-1.591 1.591a.75.75 0 1 1-1.061-1.06l1.591-1.592a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd" />
                                                 </svg>
@@ -54,7 +54,7 @@ const AboutComponent = () => {
                         <h6 className="pb-4 text-accentDark text-sm tracking-wide font-extrabold">OUR JOURNEY</h6>
                         <div className="flex space-x-8 ">
                             <div className="flex-1 text-amber-950 text-md">
-                                <p className="text-md leading-relaxed"><span className="inline-block bg-amber-100 p-1"><strong>American Christian Academy (ACA)</strong></span> began its journey on May 9, 1991, as Shell Close School, with just nine elementary students from six countries learning in a single classroom at the founder's home in Onireke, Ibadan. Built on a foundation of Christian values, academic excellence, and a family-centered culture, the school quickly grew into a vibrant international learning community. As enrollment expanded, the school became American Christian Academy in 1996, continually investing in modern facilities, globally recognized academic programs, and innovative learning opportunities that prepare students to excel both locally and internationally.
+                                <p className="text-md lg:text-lg leading-relaxed"><span className="inline-block bg-amber-100 p-1"><strong>American Christian Academy (ACA)</strong></span> began its journey on May 9, 1991, as Shell Close School, with just nine elementary students from six countries learning in a single classroom at the founder's home in Onireke, Ibadan. Built on a foundation of Christian values, academic excellence, and a family-centered culture, the school quickly grew into a vibrant international learning community. As enrollment expanded, the school became American Christian Academy in 1996, continually investing in modern facilities, globally recognized academic programs, and innovative learning opportunities that prepare students to excel both locally and internationally.
                                     For more than three decades, ACA has remained committed to developing the whole child through outstanding academics, leadership, arts, sports, and character development. As an official Cambridge and U.S. College Board test center, the school has consistently produced exceptional academic achievements while nurturing students to become compassionate, confident, and globally minded leaders. Today, ACA continues to build on its rich legacy, equipping every student with the wisdom, skills, and faith needed to live purposeful lives and make a lasting impact around the world.
                                 </p>
                             </div>
@@ -74,7 +74,7 @@ const AboutComponent = () => {
                             </div>
                             <div className="flex">
                                 <div className="mt-[0.2em] w-3  lg:w-4 md:self-stretch lg:h-[90%] bg-primary"></div>
-                                <p className="pl-3 text-md text-secondaryDark">We glorify God by combining His truth with knowledge in a friendly & intellectually stimulating environment, so that students are equipped with wisdom for a purposeful life.</p>
+                                <p className="pl-3 text-md lg:text-lg text-secondaryDark">We glorify God by combining His truth with knowledge in a friendly & intellectually stimulating environment, so that students are equipped with wisdom for a purposeful life.</p>
                             </div>
                         </div>
                         <div className="p-8  flex-1 shadow-2xl rounded-lg flex flex-col bg-white text-primary">
@@ -87,7 +87,7 @@ const AboutComponent = () => {
                             </div>
                             <div className="flex">
                                 <div className="mt-[0.2em] w-3 lg:w-4 md:self-stretch lg:h-[90%] bg-primary"></div>
-                                <p className="pl-3 text-md text-secondaryDark">We provide a caring community dedicated to discovering the God-given gifts within our students & inspiring them to achieve their optimal potential, while maintaining high moral & academic standards worthy of exemplary world citizens.</p>
+                                <p className="pl-3 text-md lg:text-lg text-secondaryDark">We provide a caring community dedicated to discovering the God-given gifts within our students & inspiring them to achieve their optimal potential, while maintaining high moral & academic standards worthy of exemplary world citizens.</p>
                             </div>
                         </div>
                     </div>
@@ -97,10 +97,10 @@ const AboutComponent = () => {
                       <div className="flex flex-col lg:flex-row lg:space-x-8">
                         <div className="flex-1 flex-col space-y-8 jusitfy-center">
                             <p className="text-4xl font-semibold sm:text-4xl lg:text-6xl  text-primary">Raising Leaders of Integrity and Excellence.</p>
-                            <p className="text-md leading-relaxed"><span className="p-2 inline-block bg-amber-100"><strong> At American Christian Academy (ACA) </strong></span> Our credo is a commitment to cultivating faith, character, wisdom, and excellence in every student, preparing them for a life of purpose and service.</p>
+                            <p className="text-md lg:text-lg leading-relaxed"><span className="p-2 inline-block bg-amber-100"><strong> At American Christian Academy (ACA) </strong></span> Our credo is a commitment to cultivating faith, character, wisdom, and excellence in every student, preparing them for a life of purpose and service.</p>
                         </div>
                         <div className="flex-1">
-                            <ul className="list-none  mt-5 pl-2 lg:pl-5 space-y-2 text-md lg:text-md">
+                            <ul className="list-none  mt-5 pl-2 lg:pl-5 space-y-2 text-md lg:text-lg">
                                 <li className="flex items-center gap-2">
                                     <span className="bg-primary rounded-lg p-2 text-brand-light"><strong>A</strong></span>bsolute integrity in all things, showing respect for everyone.
                                 </li>
@@ -127,7 +127,7 @@ const AboutComponent = () => {
                       </div>  
                 </div>
                 <div className="px-8 pb-16 lg:pb-32 bg-primary">
-                    <h6 className="pt-4 pb-4 text-brand-light text-sm tracking-wide font-extrabold">MEET OUR FOUNDERS</h6>
+                    <h6 className="pt-4 pb-4 text-brand-light text-md lg:text-lg tracking-wide font-extrabold">MEET OUR FOUNDERS</h6>
                     <div className="flex flex-col lg:flex-row relative lg:space-x-12">
                         <div className="relative border-4 border-brand-light flex-1 rounded-lg shadow-2xl overflow-hidden">
                                 <img src={HeadOfSchool} className="h-full object-cover" alt="founders" />
@@ -138,15 +138,15 @@ const AboutComponent = () => {
                         
                         <div className="pt-12 flex-1 flex-col space-y-4 lg:pt-0">
                             <div className="flex items-center justify-left pt-4 space-x-2">
-                               <h1 className="text-md  text-brand-light font-semibold">We welcome you to ACA with</h1> 
+                               <h1 className="text-md lg:text-lg text-brand-light font-semibold">We welcome you to ACA with</h1> 
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#e7000b" className="size-6">
                                     <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
                                 </svg>
                             </div>
-                            <p className="leading-relaxed text-brand-light text-md">
+                            <p className="leading-relaxed text-brand-light text-md lg:text-lg">
                                 At American Christian Academy, our dedicated teachers continually grow in their profession, embracing evidence-based teaching practices that inspire outstanding academic achievement while nurturing each student's intellectual, physical, social, and spiritual development. Supported by a stable and committed faculty, strong partnerships with the business community, and a caring environment affectionately known by many alumni as their "second home," we prepare students with the knowledge, character, and 21st-century skills needed to excel in an ever-changing world.
                             </p>
-                            <p className="leading-relaxed text-brand-light text-md">
+                            <p className="leading-relaxed text-brand-light text-md lg:text-lg">
                                 As generations of families continue to place their trust in ACA—including the children of our pioneering alumni—we celebrate a legacy of excellence, faith, and lifelong relationships that spans decades. We remain steadfast in our commitment to helping every child discover and develop their God-given potential, ensuring that every student becomes a cherished part of the ACA family while looking to the future with confidence, hope, and unwavering trust in our Lord Jesus Christ.
                             </p>
                         </div>
@@ -154,8 +154,8 @@ const AboutComponent = () => {
                     </div>
                 </div>
                 
-                <div className="px-8 pt-4  lg:pt-32 pb-300 md:pb-50 lg:pb-50 bg-white">
-                    <h6 className="pb-4 text-accentDark text-sm tracking-wide font-extrabold">MEET OUR GOVERNING BOARD</h6>
+                <div className="px-8 pt-4  lg:pt-32 pb-40 md:pb-50 lg:pb-50 bg-white">
+                    <h6 className="pb-4 text-accentDark text-md lg:text-lg tracking-wide font-extrabold">MEET OUR GOVERNING BOARD</h6>
                     <div className="grid grid-cols-1 min-[600px]:grid-cols-2   md:grid-cols-2 lg:grid-cols-6 auto-rows-fr  gap-16">
                          <div className=" md:col-span-1 lg:col-span-2  relative shadow-2xl  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
                              <div className="shadow-xl absolute  bottom-0   inset-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
