@@ -14,30 +14,26 @@ const AcademicsComponent = () => {
     return(
         <>
             <div className=" flex flex-col">
-              <div className="bg-primary flex  flex-col sm:flex-col  h-[400px] min-h-[950px]">
-                                                <div className="mt-20 sm:mt-15 md:mt-15 lg:mt-15 flex items-center justify-start" >
-                                                      <h6 className="pl-5 md:pl-25 lg:pl-25  pb-8 text-md md:text-3xl lg:text-3xl  text-brand-light font-archivo">LEARNING AT ACA</h6>
-                                                  </div>
-                                              <div className="relative flex justify-left flex-1  h-[400px]">     
-                                                  {/*<div className="absolute -bottom-4 right-10 sm:right-17 lg:right-19 lg:rounded-md rounded-md shadow-xl shadow-amber-600 bg-amber-100 w-20 h-20"  />*/}
-                                                  <img className="relative mx-auto border-8 border-white rounded-md w-[85%]  h-full object-cover"  src={AcaHighSchool3}  /> 
-                                                  <div className="absolute rounded-md inset-0 mx-auto w-[85%] bg-amber-900 opacity-20" />
-                                              </div>
-                                              <div className="mt-20  flex flex-col flex-1 h-[320px] ">
-                                                  <div className= "w-[90%] mx-auto py-5  px-5   rounded-md bg-white">
-                                                      <h6 className="text-primary font-archivo text-xl md:text-3xl ">ACADEMICS</h6>
-                                                      <h5 className="text-md md:text-xl lg:text-2xl text-accentDark">Empowering Every Student For Academic Excellence</h5>
-                                                      <div className="mt-5 py-5 px:5 md:px-10 flex flex-col sm:flex-col md:flex-col lg:flex-row  lg:justify-center items-center gap-4 rounded-md bg-primary ">
-                                                          <span className="text-md text-brand-light md:text-xl md:font-semibold">Start You Application Today</span>
-                                                          <span className="px-10 py-2 flex  gap-2 text-md md:text-lg items-center rounded-md text-brand-light shadow-lg shadow-accentDark bg-amber-600 block">Apply Now
-                                                              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-                                                                  <path fill-rule="evenodd" d="M12 1.5a.75.75 0 0 1 .75.75V4.5a.75.75 0 0 1-1.5 0V2.25A.75.75 0 0 1 12 1.5ZM5.636 4.136a.75.75 0 0 1 1.06 0l1.592 1.591a.75.75 0 0 1-1.061 1.06l-1.591-1.59a.75.75 0 0 1 0-1.061Zm12.728 0a.75.75 0 0 1 0 1.06l-1.591 1.592a.75.75 0 0 1-1.06-1.061l1.59-1.591a.75.75 0 0 1 1.061 0Zm-6.816 4.496a.75.75 0 0 1 .82.311l5.228 7.917a.75.75 0 0 1-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 0 1-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 0 1-1.247-.606l.569-9.47a.75.75 0 0 1 .554-.68ZM3 10.5a.75.75 0 0 1 .75-.75H6a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 10.5Zm14.25 0a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H18a.75.75 0 0 1-.75-.75Zm-8.962 3.712a.75.75 0 0 1 0 1.061l-1.591 1.591a.75.75 0 1 1-1.061-1.06l1.591-1.592a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd" />
-                                                              </svg>
-                                                          </span>
-                                          </div>
+              <div className="relative overflow-hidden bg-primary flex  flex-col sm:flex-col   min-h-[480px] md:min-h-[600px]">
+                                  <div className="mt-20 sm:mt-15 md:mt-15 lg:mt-15 flex items-center justify-start" >
+                                        <h6 className="pl-5 md:pl-25 lg:pl-25  pb-8 text-md md:text-3xl lg:text-xl  text-brand-light font-archivo">LEARNING AT ACA</h6>
+                                   </div> 
+                                  <div className="relative flex   h-[400px]">     
+                                        {/*<div className="absolute -bottom-4 right-10 sm:right-17 lg:right-19 lg:rounded-md rounded-md shadow-xl shadow-amber-600 bg-amber-100 w-20 h-20"  />*/}
+                                        <img className="relative border-t-4 border-x-4 border-white mx-auto rounded-md  w-[85%]  h-full object-cover"  src={AcaHighSchool3}  /> 
+                                        {/*<div className="absolute rounded-md inset-0 mx-auto w-[85%] bg-amber-900 opacity-20" />*/}
+                                   </div>
+                                             
+                                  <div className="absolute h-full w-full inset-x-0 top-30 md:top-40 bg-gradient-to-b from-transparent via-primary to-primary"></div>
+                                   <div className="absolute bottom-20 md:bottom-10 w-full  flex flex-col">
+                                                  <div className= "w-[90%] mx-auto flex flex-col items-start">
+                                                    <div className="w-[90%] mx-auto flex flex-col">
+                                                        <h6 className="text-brand-light font-archivo text-3xl md:text-3xl lg:text-4xl ">ACADEMICS</h6>
+                                                        <h5 className="text-md md:text-xl lg:text-2xl font-archivo text-amber-200">Empowering Every Student For Academic Excellence</h5>
+                                                     </div> 
+                                                     
                                       </div>
                                   </div>
-                                  
                               </div>
                 <div className="flex-1  min-h-screen px-12 flex-col space-y-10  md:space-y-10 lg:space-y-30 pt-18 bg-white">
                     <div className="flex flex-col space-y-8 lg:space-y-0 lg:flex-row  lg:space-x-8">
@@ -61,11 +57,11 @@ const AcademicsComponent = () => {
                     <div className="pt-8 lg:pt-0 flex flex-col">
                          <h6 className="pb-4 text-accentDark text-sm tracking-wide font-extrabold">OUR SCHOOLS</h6>
                         <div className="flex flex-col gap-16">
-                            <div className="pt-4 pb-10 h-[400px] md:min-h-[400px] min-h-[700px] lg:pt-0 md:pb-0  flex flex-col gap-8 lg:flex-row">
-                                <div className="h-full flex-1 bg-primary rounded-md flex flex-col xl:items-center">
-                                            <div className="pt-1 pl-2 pr-2  h-[95%]  w-full flex flex-col rounded-md text-brand-light">
+                            <div className="pt-4 pb-1 lg:h-[400px] w-full lg:pt-0 md:pb-0  flex flex-col gap-8 lg:flex-row">
+                                <div className="flex-1  bg-primary rounded-md flex flex-col xl:items-center">
+                                            <div className="h-full  overflow-hidden w-full pt-1 pl-2 pr-2   flex flex-col rounded-md text-brand-light">
                                                 <div className="p-2 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>PRE-SCHOOL</h3></div>
-                                                <img src={AcaElementary} className="h-[90%] rounded-md border-2 object-cover" />
+                                                <img src={AcaElementary} className="border-2 h-[85%] border-white rounded-md object-cover" />
                                             </div>
                                     </div>
                                     <div className="flex-1 flex items-center  leading-relaxed">
@@ -77,8 +73,8 @@ const AcademicsComponent = () => {
 
                         {/**Elementary School */}
 
-                        <div className="pt- h-[400px] md:min-h-[400px] min-h-[700px] lg:pt-0 pb-0   flex flex-col gap-8 lg:flex-row">
-                            <div className="flex-1 flex order-2 md:order-1 items-center leading-relaxed">
+                        <div className="pt-4 h-[400px] md:min-h-[400px] min-h-[700px] lg:pt-0 pb-0   flex flex-col gap-8 lg:flex-row">
+                            <div className="flex-1 flex order-2 lg:order-1 items-center leading-relaxed">
                                     <p className="text-accentDark text-md lg:text-lg">
                                         <span className="inline-block bg-amber-100 p-1">
                                             <strong>American Christian Academy (ACA)</strong></span> Elementary School is dedicated to providing an excellent, student-centered education.
