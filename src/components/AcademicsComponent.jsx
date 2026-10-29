@@ -141,7 +141,7 @@ const AcademicsComponent = () => {
                                 <p className="pb-4 text-4xl sm:text-4xl lg:text-5xl font-semibold text-primary">Beyond The Classroom, Discover Your Gifts</p>
                                 <div className="p-8 grid rounded-md bg-accentDark grid-cols-3 gap-4 grid-rows-2 h-[400px]">
                                     <div className="row-span-2 col-span-3 md:row-span-2 md:col-span-1 lg:col-span-1 border-2 border-white rounded-xl overflow-hidden shadow-2xl">
-                                        <img src={sport} className="h-full w-full object-cover object-left"  alt='img' />
+                                        <img src={sport} className="h-full w-full object-cover object-center md:object-left"  alt='img' />
                                     </div>
                                     <div className="hidden md:block md:row-span-2  md:col-span-1 lg:col-span-1 lg:block lg:row-span-2 border-2 border-white rounded-xl overflow-hidden shadow-2xl">
                                         <img src={sport} className="h-full w-full object-cover object-center" alt='img' />
