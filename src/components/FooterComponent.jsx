@@ -3,7 +3,7 @@ const FooterComponent = () => {
     
     return(
         
-                <div className="px-8 pt-16 relative  w-full  bg-primary text-secondary"> 
+                <div className="px-8 pt-16 relative  w-full  bg-primary text-brand-light"> 
                     <div className="mx-auto max-w-7xl flex flex-col">
                         <div className="flex flex-col sm:flex-col lg:flex-row  lg:space-x-16">
                           <div className="pb-8 flex flex-col  space-y-8  sm:flex-row lg:flex-row  sm:space-x-64  lg:space-x-16  justify-between">
@@ -12,7 +12,7 @@ const FooterComponent = () => {
                                 <p>American Christian Academy (ACA) is an internationally accredited Christian school currently serving creche through twelfth grade students.</p>
                             </div>
                             <div className="sm:flex-1 md:flex-1 lg:flex-1 flex flex-col">
-                                <h5 className="pb-4 text-lg font-semibold text-secondary">Site Map</h5>
+                                <h5 className="pb-4 text-lg font-semibold text-brand-light">Site Map</h5>
                                 <a href="#">Home</a>
                                 <a href="#">About</a>
                                 <a href="#">Academics</a>
@@ -31,9 +31,9 @@ const FooterComponent = () => {
                                 <h5 className="pb-4 text-lg font-semibold">Subscribe For Our News Letter</h5>
                                 <div className="flex flex-col space-y-2">
                                     <label>
-                                        <input className="p-2 bg-accentDark w-full rounded-lg placeholder:text-secondary" placeholder="Email"/>
+                                        <input className="p-2 bg-accentDark w-full rounded-lg placeholder:text-brand-light" placeholder="Email"/>
                                     </label>
-                                    <button className="p-2 bg-secondary text-primary rounded-lg">Click To Subscribe</button>
+                                    <button className="p-2 bg-brand-light text-primary font-semibold rounded-lg">Click To Subscribe</button>
                                 </div>
                             </div>
 

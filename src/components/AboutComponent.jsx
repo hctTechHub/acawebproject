@@ -12,31 +12,27 @@ const AboutComponent = () => {
     return(
         <>
             <div className="pb-20">
-            <div className="bg-primary flex  flex-col sm:flex-col  h-[400px] min-h-[950px]">
-                                  <div className="mt-20 sm:mt-15 md:mt-15 lg:mt-15 flex items-center justify-start" >
-                                        <h6 className="pl-5 md:pl-25 lg:pl-25  pb-8 text-md md:text-3xl lg:text-3xl  text-brand-light font-archivo">WANT TO LEARN ABOUT ACA?</h6>
-                                    </div>
-                                <div className="relative flex justify-left flex-1  h-[400px]">     
-                                    {/*<div className="absolute -bottom-4 right-10 sm:right-17 lg:right-19 lg:rounded-md rounded-md shadow-xl shadow-amber-600 bg-amber-100 w-20 h-20"  />*/}
-                                    <img className="relative mx-auto border-8 border-white rounded-md w-[85%]  h-full object-cover"  src={AcaGroup2}  /> 
-                                    <div className="absolute rounded-md inset-0 mx-auto w-[85%] bg-amber-900 opacity-30" />
-                                </div>
-                                <div className="mt-20  flex flex-col flex-1 h-[320px] ">
-                                    <div className= "w-[90%] mx-auto py-5  px-5   rounded-md bg-white">
-                                        <h6 className="text-primary font-archivo text-xl md:text-3xl ">RAISING LEADERS</h6>
-                                        <h5 className="text-md md:text-xl lg:text-2xl text-accentDark">Nurturing excellence in learning.</h5>
-                                        <div className="mt-5 py-5 px:5 md:px-10 flex flex-col sm:flex-col md:flex-col lg:flex-row  lg:justify-center items-center gap-4 rounded-md bg-primary ">
-                                            <span className="text-md text-brand-light md:text-xl md:font-semibold">Start You Application Today</span>
-                                            <span className="px-10 py-2 flex  gap-2 text-md md:text-lg items-center rounded-md text-brand-light shadow-lg shadow-accentDark bg-amber-600 block">Apply Now
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-                                                    <path fill-rule="evenodd" d="M12 1.5a.75.75 0 0 1 .75.75V4.5a.75.75 0 0 1-1.5 0V2.25A.75.75 0 0 1 12 1.5ZM5.636 4.136a.75.75 0 0 1 1.06 0l1.592 1.591a.75.75 0 0 1-1.061 1.06l-1.591-1.59a.75.75 0 0 1 0-1.061Zm12.728 0a.75.75 0 0 1 0 1.06l-1.591 1.592a.75.75 0 0 1-1.06-1.061l1.59-1.591a.75.75 0 0 1 1.061 0Zm-6.816 4.496a.75.75 0 0 1 .82.311l5.228 7.917a.75.75 0 0 1-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 0 1-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 0 1-1.247-.606l.569-9.47a.75.75 0 0 1 .554-.68ZM3 10.5a.75.75 0 0 1 .75-.75H6a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 10.5Zm14.25 0a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H18a.75.75 0 0 1-.75-.75Zm-8.962 3.712a.75.75 0 0 1 0 1.061l-1.591 1.591a.75.75 0 1 1-1.061-1.06l1.591-1.592a.75.75 0 0 1 1.06 0Z" clip-rule="evenodd" />
-                                                </svg>
-                                            </span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
+            <div className="relative overflow-hidden bg-primary flex  flex-col sm:flex-col   min-h-[480px] md:min-h-[600px]">
+                                              <div className="mt-20 sm:mt-15 md:mt-15 lg:mt-15 flex items-center justify-start" >
+                                                    <h6 className="pl-5 md:pl-25 lg:pl-25  pb-8 text-md md:text-3xl lg:text-xl  text-brand-light font-archivo">WANT TO KNOW ABOUT ACA?</h6>
+                                               </div> 
+                                              <div className="relative flex   h-[400px]">     
+                                                    {/*<div className="absolute -bottom-4 right-10 sm:right-17 lg:right-19 lg:rounded-md rounded-md shadow-xl shadow-amber-600 bg-amber-100 w-20 h-20"  />*/}
+                                                    <img className="relative border-t-4 border-x-4 border-white mx-auto rounded-md  w-[85%]  h-full object-cover"  src={AcaGroup2}  /> 
+                                                    {/*<div className="absolute rounded-md inset-0 mx-auto w-[85%] bg-amber-900 opacity-20" />*/}
+                                               </div>
+                                                         
+                                              <div className="absolute h-full w-full inset-x-0 top-30 md:top-40 bg-gradient-to-b from-transparent via-primary to-primary"></div>
+                                               <div className="absolute bottom-20 md:bottom-10 w-full  flex flex-col">
+                                                              <div className= "w-[90%] mx-auto flex flex-col items-start">
+                                                                <div className="w-[90%] mx-auto flex flex-col">
+                                                                    <h6 className="text-brand-light font-archivo text-3xl md:text-3xl lg:text-4xl ">RAISING LEADERS</h6>
+                                                                    <h5 className="text-md md:text-xl lg:text-2xl font-archivo text-amber-200">Nuturing Excellence In Learning</h5>
+                                                                 </div> 
+                                                                 
+                                                  </div>
+                                              </div>
+                                          </div>
                 {/*<div className="relative mt-18 min-[600px]:max-[639px]:mt-20  min-[640px]:max-[768px]:mt-12 md:mt-12  lg:mt-0  w-full h-[250px]  lg:h-[500px]">
                     <img src={AcaGroup} className="w-full h-full object-cover" />
                     <div className="absolute inset-0 bg-amber-950 opacity-80"></div>
@@ -163,31 +159,31 @@ const AboutComponent = () => {
                             </div>
                         </div>
                         <div className="md:col-span-1 lg:col-span-2  relative shadow-2xl  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={HeadOfSchool} className="h-full object-cover" alt="founders" />
+                            <img src={HeadOfSchool} className="scale-100 transform duration-300 ease-in-out hover:scale-110 h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Dr Equi & Karen Nwulu [Head Of School & Principal]</h5>
                             </div>
                         </div>
                         <div className="md:col-span-1 lg:col-span-2 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={boardMember1} className="h-full object-cover" alt="founders" />
+                            <img src={boardMember1} className="scale-100 transform duration-300 ease-in-out hover:scale-110 h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Dr Bankole Shodipo</h5>
                             </div>
                         </div>
                         <div className="md:col-span-1 lg:col-span-2 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={boardMember2} className="h-full object-cover" alt="founders" />
+                            <img src={boardMember2} className="scale-100 transform duration-300 ease-in-out hover:scale-110 h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Mr. Lucky James </h5>
                             </div>
                         </div>
                          <div className="md:col-span-1 lg:col-span-2 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={boardMember3} className="h-full object-cover" alt="founders" />
+                            <img src={boardMember3} className="scale-100 transform duration-300 ease-in-out hover:scale-110 h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Dr. Christian Happi</h5>
                             </div>
                         </div>
                          <div className="md:col-span-1 lg:col-span-2 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={boardMember4} className="h-full object-cover" alt="founders" />
+                            <img src={boardMember4} className="scale-100 transform duration-300 ease-in-out hover:scale-110 h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Janice Okpanachi</h5>
                             </div>

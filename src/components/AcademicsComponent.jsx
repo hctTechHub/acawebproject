@@ -57,14 +57,15 @@ const AcademicsComponent = () => {
                     <div className="pt-8 lg:pt-0 flex flex-col">
                          <h6 className="pb-4 text-accentDark text-sm tracking-wide font-extrabold">OUR SCHOOLS</h6>
                         <div className="flex flex-col gap-16">
-                            <div className="pt-4 pb-1 lg:h-[400px] w-full lg:pt-0 md:pb-0  flex flex-col gap-8 lg:flex-row">
-                                <div className="flex-1  bg-primary rounded-md flex flex-col xl:items-center">
-                                            <div className="h-full  overflow-hidden w-full pt-1 pl-2 pr-2   flex flex-col rounded-md text-brand-light">
-                                                <div className="p-2 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>PRE-SCHOOL</h3></div>
-                                                <img src={AcaElementary} className="border-2 h-[85%] border-white rounded-md object-cover" />
-                                            </div>
+                            <div className="pt-4 pb-1  w-full lg:pt-0 md:pb-0  flex flex-col gap-8  lg:flex-row">
+                                <div className="h-[350px] md:h-[500px] md:flex-1 bg-accentDark grid grid-cols-1 rounded-md">
+                                        {/*<div className="py-2 pl-8 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>PRE-SCHOOL</h3></div>*/}
+                                        <div className="w-[95%] md:w-[95%]  mx-auto overflow-hidden">
+                                            <div className="py-2 pl-8 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>PRE-SCHOOL</h3></div>
+                                            <img src={AcaElementary} className="border-2 border-brand-light h-[85%] w-[95%] md:h-[85%] md:w-[95%] my-auto mx-auto  rounded-md object-cover" />
+                                         </div>   
                                     </div>
-                                    <div className="flex-1 flex items-center  leading-relaxed">
+                                    <div className="md:flex-1 flex  items-center leading-relaxed">
                                         <p className="text-accentDark text-md lg:text-lg">
                                             <span className="inline-block bg-amber-100 p-1"><strong>American Christian Academy (ACA)</strong></span> Pre-School provides a warm, nurturing, and stimulating environment where young learners develop strong foundations in literacy, numeracy, science, social studies, and creative arts. Through engaging activities, play-based learning, technology, and guided exploration, children build essential academic, social, and communication skills while developing confidence, curiosity, independence, and good character.             
                                         </p>
@@ -72,85 +73,93 @@ const AcademicsComponent = () => {
                             </div>
 
                         {/**Elementary School */}
-
-                        <div className="pt-4 h-[400px] md:min-h-[400px] min-h-[700px] lg:pt-0 pb-0   flex flex-col gap-8 lg:flex-row">
-                            <div className="flex-1 flex order-2 lg:order-1 items-center leading-relaxed">
-                                    <p className="text-accentDark text-md lg:text-lg">
-                                        <span className="inline-block bg-amber-100 p-1">
-                                            <strong>American Christian Academy (ACA)</strong></span> Elementary School is dedicated to providing an excellent, student-centered education.
-                                       ACA Elementary School provides a supportive and engaging learning environment where students build a strong foundation in English Language Arts, Mathematics, Science, Social Studies, Computer Studies, Creative Arts, and Physical Education. Through hands-on learning, technology, collaboration, and character development, students develop the knowledge, confidence, and critical-thinking skills needed for success in the next stage of their education.
-                                    </p>
-                             </div>
-                            <div className="h-full flex-1 order-1 md:order-1 bg-primary rounded-md flex flex-col xl:items-center">
-                                        <div className="pt-1 pl-2 pr-2  h-[95%]  w-full flex flex-col rounded-md text-brand-light">
-                                            <div className="p-2 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>ELEMENTARY SCHOOL</h3></div>
-                                            <img src={AcaElementary3} className="h-[90%] rounded-md border-2 object-cover" />
-                                        </div>
-                                </div>
-                                
-                        </div>
- 
-                        {/**Middle School */}
-                           <div className="pt-4 h-[400px] md:min-h-[400px] min-h-[700px] lg:pt-0 pb-0   flex flex-col gap-8 lg:flex-row">
-                                <div className="h-full flex-1 bg-primary rounded-md flex flex-col xl:items-center">
-                                            <div className="pt-1 pl-2 pr-2  h-[95%]  w-full flex flex-col rounded-md text-brand-light">
-                                                <div className="p-2 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>MIDDLE SCHOOL</h3></div>
-                                                <img src={AcaHighSchool2} className="h-[90%] rounded-md border-2 object-cover" />
-                                            </div>
-                                    </div>
-                                    <div className="flex-1 flex items-center leading-relaxed">
+                         <div className="pt-4 pb-1  w-full lg:pt-0 md:pb-0  flex flex-col gap-8  lg:flex-row"> 
+                            <div className="order-2 md:order-2 lg:order-1 md:flex-1 flex  items-center leading-relaxed">
                                         <p className="text-accentDark text-md lg:text-lg">
                                             <span className="inline-block bg-amber-100 p-1">
-                                                <strong>American Christian Academy (ACA)</strong></span>
-                                        Middle School offers a well-rounded academic programme that strengthens students’ knowledge and skills in English Language Arts, Mathematics, Science, Social Studies, Computer Studies, and the Arts, while encouraging independent thinking, collaboration, leadership, and personal responsibility. Students are prepared for increasingly challenging academic work and foundational assessments as they progress toward high school and internationally recognized programmes.
-                                   </p>
+                                                 <strong>American Christian Academy (ACA)</strong></span> Elementary School is dedicated to providing an excellent, student-centered education.
+                                       ACA Elementary School provides a supportive and engaging learning environment where students build a strong foundation in English Language Arts, Mathematics, Science, Social Studies, Computer Studies, Creative Arts, and Physical Education. Through hands-on learning, technology, collaboration, and character development, students develop the knowledge, confidence, and critical-thinking skills needed for success in the next stage of their education.
+                                      </p>
                                     </div>
+                                <div className="order-1 md:order-1 h-[350px] md:h-[500px] md:flex-1 bg-primary grid grid-cols-1 rounded-md">
+                                        {/*<div className="py-2 pl-8 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>PRE-SCHOOL</h3></div>*/}
+                                        <div className="w-[95%] md:w-[95%]  mx-auto overflow-hidden">
+                                            <div className="py-2 pl-8 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>ELEMENTARY SCHOOL</h3></div>
+                                            <img src={AcaElementary3} className="border-2 border-brand-light h-[85%] w-[95%] md:h-[85%] md:w-[95%] my-auto mx-auto  rounded-md object-cover" />
+                                         </div>   
+                                    </div>
+                                   
                             </div>
 
-                        {/**High School */}
-                        <div className="pt-4 h-[400px] min-h-[700px] md:min-h-[400px] lg:pt-0 pb-0   flex flex-col gap-8 lg:flex-row">
-                                <div className="flex-1 flex order-2 md:order-1 items-center  leading-relaxed">
-                                        <p className="text-accentDark text-md lg:text-lg">
-                                            <span className="inline-block bg-amber-100 p-1"><strong>American Christian Academy (ACA)</strong></span> 
-                                    High School provides a rigorous and comprehensive education across English, Mathematics, Sciences, Social Studies, Languages, Computer Studies, and the Arts, preparing students for higher education and a rapidly changing world. Students are supported in pursuing internationally recognized qualifications and examinations, including SAT, PSAT, IGCSE, AP, and Cambridge A-Levels, while developing critical thinking, problem-solving, communication, leadership, and lifelong learning skills.
-                                   </p>
-                                </div>
-                                <div className="h-full flex-1 order-1 md:order-1 bg-primary rounded-md flex flex-col xl:items-center">
-                                    <div className="pt-1 pl-2 pr-2  h-[95%]  w-full flex flex-col rounded-md text-brand-light">
-                                        <div className="p-2 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>HIGH SCHOOL</h3></div>
-                                        <img src={AcaHighSchool1} className="h-[90%] rounded-md border-2 object-cover" />
+                    
+ 
+                        {/**Middle School */}
+                         <div className="pt-4 pb-1  w-full lg:pt-0 md:pb-0  flex flex-col gap-8  lg:flex-row"> 
+                            <div className="order-2 md:order-1 h-[350px] md:h-[500px] md:flex-1 bg-accentDark grid grid-cols-1 rounded-md">
+                                        {/*<div className="py-2 pl-8 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>PRE-SCHOOL</h3></div>*/}
+                                        <div className="w-[95%] md:w-[95%]  mx-auto overflow-hidden">
+                                            <div className="py-2 pl-8 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>MIDDLE SCHOOL</h3></div>
+                                            <img src={AcaHighSchool2} className="border-2 border-brand-light h-[85%] w-[95%] md:h-[85%] md:w-[95%] my-auto mx-auto  rounded-md object-cover" />
+                                         </div>   
                                     </div>
-                                </div>
-                                    
-                        </div>
-                      
+                            <div className="order-1 md:order-1 md:flex-1 flex  items-center leading-relaxed">
+                                        <p className="text-accentDark text-md lg:text-lg">
+                                            <span className="inline-block bg-amber-100 p-1">
+                                                  <strong>American Christian Academy (ACA)</strong></span>
+                                        Middle School offers a well-rounded academic programme that strengthens students’ knowledge and skills in English Language Arts, Mathematics, Science, Social Studies, Computer Studies, and the Arts, while encouraging independent thinking, collaboration, leadership, and personal responsibility. Students are prepared for increasingly challenging academic work and foundational assessments as they progress toward high school and internationally recognized programmes.
+                                     </p>
+                                    </div>
+                                
+                                   
+                            </div>
+
+                          
+
+                        {/**High School */}
+                        <div className="pt-4 pb-1  w-full lg:pt-0 md:pb-0  flex flex-col gap-8  lg:flex-row"> 
+                             <div className="order-1 md:order-2 lg:order-1 md:flex-1 flex  items-center leading-relaxed">
+                                        <p className="text-accentDark text-md lg:text-lg">
+                                            <span className="inline-block bg-amber-100 p-1">
+                                                <strong>American Christian Academy (ACA)</strong></span> 
+                                    High School provides a rigorous and comprehensive education across English, Mathematics, Sciences, Social Studies, Languages, Computer Studies, and the Arts, preparing students for higher education and a rapidly changing world. Students are supported in pursuing internationally recognized qualifications and examinations, including SAT, PSAT, IGCSE, AP, and Cambridge A-Levels, while developing critical thinking, problem-solving, communication, leadership, and lifelong learning skills.
+                                   
+                                                  </p>
+                                    </div> 
+                            <div className="order-2 md:order-1 h-[350px] md:h-[500px] md:flex-1 bg-primary grid grid-cols-1 rounded-md">
+                                        {/*<div className="py-2 pl-8 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>PRE-SCHOOL</h3></div>*/}
+                                        <div className="w-[95%] md:w-[95%]  mx-auto overflow-hidden">
+                                            <div className="py-2 pl-8 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>HIGH SCHOOL</h3></div>
+                                            <img src={AcaHighSchool1} className="border-2 border-brand-light h-[85%] w-[95%] md:h-[85%] md:w-[95%] my-auto mx-auto  rounded-md object-cover" />
+                                         </div>   
+                                    </div>         
+                            </div>
                     </div>
                         {/**ACA CLUBS */}
                            <div className="pt-24 flex flex-col lg:flex-row lg:space-x-12">
                          <div className="flex-col flex-1">
                                 <h6 className="pb-4 text-accentDark text-sm tracking-wide font-extrabold">OUR CLUBS</h6>
                                 <p className="pb-4 text-4xl sm:text-4xl lg:text-5xl font-semibold text-primary">Beyond The Classroom, Discover Your Gifts</p>
-                                <div className="p-8 grid rounded-md bg-primary grid-cols-3 gap-4 grid-rows-2 h-[400px]">
-                                    <div className="row-span-2 border-2 border-white rounded-xl overflow-hidden shadow-2xl">
-                                        <img src={sport} className="h-full w-full object-cover"  alt='img' />
+                                <div className="p-8 grid rounded-md bg-accentDark grid-cols-3 gap-4 grid-rows-2 h-[400px]">
+                                    <div className="row-span-2 col-span-3 md:row-span-2 md:col-span-1 lg:col-span-1 border-2 border-white rounded-xl overflow-hidden shadow-2xl">
+                                        <img src={sport} className="h-full w-full object-cover object-left"  alt='img' />
                                     </div>
-                                    <div className="row-span-2 border-2 border-white rounded-xl overflow-hidden shadow-2xl">
-                                        <img src={lab} className="h-full w-full object-cover object-center" alt='img' />
+                                    <div className="hidden md:block md:row-span-2  md:col-span-1 lg:col-span-1 lg:block lg:row-span-2 border-2 border-white rounded-xl overflow-hidden shadow-2xl">
+                                        <img src={sport} className="h-full w-full object-cover object-center" alt='img' />
                                     </div>
-                                    <div className="row-span-2 border-2 border-white rounded-xl overflow-hidden shadow-2xl">
-                                        <img src={performance} className="h-full w-full object-cover object-center" alt='img' />
+                                    <div className="hidden md:block md:row-span-2 lg:block lg:row-span-2 border-2 border-white rounded-xl overflow-hidden shadow-2xl">
+                                        <img src={sport} className="h-full w-full object-cover object-right" alt='img' />
                                     </div>
                                 </div>
                               </div>
-                              <div className="flex-1 leading-relaxed">
+                              <div className="pt-4 flex-1 leading-relaxed">
                                   <p className="text-accentDark text-md lg:text-lg">
                                       <span className="inline-block bg-amber-100 p-1"><strong>American Christian Academy (ACA)</strong></span> is dedicated to providing an excellent, student-centered education.
                                       Students have an extensive range of clubs to choose from as extracurricular activities.
                                       Along with a wide variety of clubs available at ACA, Extended Learning classes are available for Pre School and Elementary School most days after school while Middle and High School holds every Monday. These academic clubs are free.
                                       If competent, students and parents are welcome to volunteer to teach a club of their interest.
                                   </p>
-                                 <p className="pt-4 text-primary font-semibold">Our clubs lncludes but not limited to:</p>
-                                    <ul className="list-none px-12 space-y-4">
+                                 <p className="pt-4 text-primary font-semibold text-md lg:text-lg">Our clubs lncludes but not limited to:</p>
+                                    <ul className="list-none px-12 space-y-4 text-md lg:text-lg">
                                         <li className="relative text-accentDark"><div className="absolute -translate-x-12 rounded-full h-8 w-8 flex items-center justify-center bg-primary">
                                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="text-brand-light size-6">
                                             <path stroke-linecap="round" stroke-linejoin="round" d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418" />
@@ -186,23 +195,23 @@ const AcademicsComponent = () => {
                               </div>
                         </div>
                         {/**ACA students achievements*/}
-                        <div className="pt-20 lg:pt-36 pb-300 lg:pb-150">
+                        <div className="pt-20 lg:pt-36 pb-50 lg:pb-50">
                             <h6 className="pb-4 text-accentDark text-sm tracking-wide font-extrabold">ACADEMIC ACHIEVEMENTS</h6>
                             <div className="flex flex-col lg:flex-row  lg:space-x-12">
-                                <div className="flex-1 text-accentDark">
+                                <div className="flex-1 text-accentDark text-md lg:text-lg">
                                     <p className="text-md leading-relaxed">At ACA, we believe our students are gifted with remarkable intelligence, talent, and potential. Year after year, they demonstrate academic excellence through outstanding performances in examinations, competitions, and various fields of learning, earning recognition both within and beyond our school community. We celebrate not only the awards, distinctions, and achievements that reflect their excellence, but also the dedication, perseverance, discipline, and hard work behind every success. Above all, we give God the glory for the wisdom, abilities, and opportunities that enable our students to strive for excellence and make a meaningful impact in the world.</p>
                                 </div>
                                 <div className="mt-8 lg:mt-0 relative flex-1">
-                                        <div className="absolute h-6 w-6 lg:h-8 lg:w-8 bg-white left-2 top-2"></div>
-                                        <div className="flex items-center justify-center h-full rounded-xl bg-primary text-amber-50">
+                                        <div className="absolute h-6 w-6 lg:h-8 lg:w-8 bg-brand-light left-2 top-2"></div>
+                                        <div className="flex items-center justify-center h-full rounded-xl bg-primary text-brand-light">
                                                 <p className="p-8 md:leading-relaxed text-2xl md:text-4xl text-center lg:leading-12.5">Celebrating Bright Minds and Bold Achievements</p>
                                         </div>
-                                         <div className="absolute h-6 w-6 lg:h-8 lg:w-8 bg-amber-50 right-2 bottom-2"></div>
+                                         <div className="absolute h-6 w-6 lg:h-8 lg:w-8 bg-brand-light right-2 bottom-2"></div>
                                 </div>
                             </div>
                             <div className="pt-16 grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 auto-rows-fr">
                                 <div className="relative rounded-xl overflow-hidden">
-                                    <div className="p-8 absolute bottom-0   text-amber-50 w-full bg-amber-900">
+                                    <div className="p-8 absolute bottom-0   text-brand-light w-full bg-primary">
                                        <h4 className="text-center font-semibold">IGCSE Best in Nigeria Award</h4>
                                     </div>
                                     <div className=""> 
@@ -211,7 +220,7 @@ const AcademicsComponent = () => {
 
                                 </div>
                                 <div className="relative rounded-xl overflow-hidden">
-                                    <div className="p-8 absolute bottom-0   text-amber-50 w-full bg-amber-900">
+                                    <div className="p-8 absolute bottom-0   text-brand-light w-full bg-primary">
                                        <h4 className="text-center font-semibold">IGCSE Best in Nigeria Award</h4>
                                     </div>
                                     <div className=""> 
@@ -220,7 +229,7 @@ const AcademicsComponent = () => {
 
                                 </div>
                                  <div className="relative rounded-xl overflow-hidden ">
-                                    <div className="p-8 not-last:absolute bottom-0   text-amber-50 w-full bg-amber-900">
+                                    <div className="p-8 not-last:absolute bottom-0   text-brand-light w-full bg-primary">
                                        <h4 className="text-center font-semibold">IGCSE Best in Nigeria Award</h4>
                                     </div>
                                     <div className=""> 
