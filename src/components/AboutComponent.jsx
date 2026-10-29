@@ -159,31 +159,31 @@ const AboutComponent = () => {
                             </div>
                         </div>
                         <div className="md:col-span-1 lg:col-span-2  relative shadow-2xl  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={HeadOfSchool} className="scale-100 transform duration-300 ease-in-out hover:scale-110 h-full object-cover" alt="founders" />
+                            <img src={HeadOfSchool} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Dr Equi & Karen Nwulu [Head Of School & Principal]</h5>
                             </div>
                         </div>
                         <div className="md:col-span-1 lg:col-span-2 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={boardMember1} className="scale-100 transform duration-300 ease-in-out hover:scale-110 h-full object-cover" alt="founders" />
+                            <img src={boardMember1} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Dr Bankole Shodipo</h5>
                             </div>
                         </div>
                         <div className="md:col-span-1 lg:col-span-2 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={boardMember2} className="scale-100 transform duration-300 ease-in-out hover:scale-110 h-full object-cover" alt="founders" />
+                            <img src={boardMember2} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Mr. Lucky James </h5>
                             </div>
                         </div>
                          <div className="md:col-span-1 lg:col-span-2 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={boardMember3} className="scale-100 transform duration-300 ease-in-out hover:scale-110 h-full object-cover" alt="founders" />
+                            <img src={boardMember3} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Dr. Christian Happi</h5>
                             </div>
                         </div>
                          <div className="md:col-span-1 lg:col-span-2 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={boardMember4} className="scale-100 transform duration-300 ease-in-out hover:scale-110 h-full object-cover" alt="founders" />
+                            <img src={boardMember4} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Janice Okpanachi</h5>
                             </div>
