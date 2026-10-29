@@ -95,14 +95,14 @@ const AcademicsComponent = () => {
  
                         {/**Middle School */}
                          <div className="pt-4 pb-1  w-full lg:pt-0 md:pb-0  flex flex-col gap-8  lg:flex-row"> 
-                            <div className="order-2 md:order-1 h-[350px] md:h-[500px] md:flex-1 bg-accentDark grid grid-cols-1 rounded-md">
+                            <div className="order-1 md:order-1 h-[350px] md:h-[500px] md:flex-1 bg-accentDark grid grid-cols-1 rounded-md">
                                         {/*<div className="py-2 pl-8 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>PRE-SCHOOL</h3></div>*/}
                                         <div className="w-[95%] md:w-[95%]  mx-auto overflow-hidden">
                                             <div className="py-2 pl-8 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>MIDDLE SCHOOL</h3></div>
                                             <img src={AcaHighSchool2} className="border-2 border-brand-light h-[85%] w-[95%] md:h-[85%] md:w-[95%] my-auto mx-auto  rounded-md object-cover" />
                                          </div>   
                                     </div>
-                            <div className="order-1 md:order-1 md:flex-1 flex  items-center leading-relaxed">
+                            <div className="order-2 md:order-1 md:flex-1 flex  items-center leading-relaxed">
                                         <p className="text-accentDark text-md lg:text-lg">
                                             <span className="inline-block bg-amber-100 p-1">
                                                   <strong>American Christian Academy (ACA)</strong></span>
@@ -117,7 +117,7 @@ const AcademicsComponent = () => {
 
                         {/**High School */}
                         <div className="pt-4 pb-1  w-full lg:pt-0 md:pb-0  flex flex-col gap-8  lg:flex-row"> 
-                             <div className="order-1 md:order-2 lg:order-1 md:flex-1 flex  items-center leading-relaxed">
+                             <div className="order-2 md:order-2 lg:order-1 md:flex-1 flex  items-center leading-relaxed">
                                         <p className="text-accentDark text-md lg:text-lg">
                                             <span className="inline-block bg-amber-100 p-1">
                                                 <strong>American Christian Academy (ACA)</strong></span> 
@@ -125,7 +125,7 @@ const AcademicsComponent = () => {
                                    
                                                   </p>
                                     </div> 
-                            <div className="order-2 md:order-1 h-[350px] md:h-[500px] md:flex-1 bg-primary grid grid-cols-1 rounded-md">
+                            <div className="order-1 md:order-1 h-[350px] md:h-[500px] md:flex-1 bg-primary grid grid-cols-1 rounded-md">
                                         {/*<div className="py-2 pl-8 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>PRE-SCHOOL</h3></div>*/}
                                         <div className="w-[95%] md:w-[95%]  mx-auto overflow-hidden">
                                             <div className="py-2 pl-8 rounded-xl text-md lg:text-lg font-semibold text-brand-light "><h3>HIGH SCHOOL</h3></div>
