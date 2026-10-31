@@ -51,7 +51,7 @@ const AdmissionComponent = () => {
                                          <h4 className="text-md lg:before:block before:h-full before:hidden lg:before:w-1.5  before:absolute before:left-0 before:bg-white lg:pl-4 absolute leading-5.5 bottom-6 font-archivo text-brand-light md:text-2xl">WE ARE NOT JUST A SCHOOL WE'RE A <span className="text-amber-200">FAMILY SCHOOL</span></h4>
                                </div>
                             </div>
-                            <div className="flex flex-col px-4 lg:px-0  w-full lg:w-[50%]">
+                            <div className="flex flex-col px-4 lg:px-0  lg:py-4 w-full lg:w-[50%]">
                                 <div className="grid gap-2 h-[400px] sm:h-[350px] grid-cols-1  w-full sm:gap-4 sm:grid-cols-2 sm:grid-rows-2"> 
                                     <div className="flex flex-col items-center rounded-md shadow-xl  justify-center  text-center bg-accentDark font-archivo text-brand-light sm:text-olive-300"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-10 sm:size-12">
                                         <path fill-rule="evenodd" d="M8.25 6.75a3.75 3.75 0 1 1 7.5 0 3.75 3.75 0 0 1-7.5 0ZM15.75 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM2.25 9.75a3 3 0 1 1 6 0 3 3 0 0 1-6 0ZM6.31 15.117A6.745 6.745 0 0 1 12 12a6.745 6.745 0 0 1 6.709 7.498.75.75 0 0 1-.372.568A12.696 12.696 0 0 1 12 21.75c-2.305 0-4.47-.612-6.337-1.684a.75.75 0 0 1-.372-.568 6.787 6.787 0 0 1 1.019-4.38Z" clip-rule="evenodd" />
