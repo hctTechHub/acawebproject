@@ -42,13 +42,13 @@ const AdmissionComponent = () => {
                             </div>
                            
                         </div>
-                        <div className="mt-16 lg:mt-24 py-4 flex flex-col gap-8  lg:flex-row justify-center h-[900px] lg:h-[450px] w-full bg-primary">
+                        <div className="mt-16 lg:mt-24 py-4 flex flex-col gap-8  lg:flex-row justify-center h-[800px] min-[500px]:max-[639px]:h-[800px] sm:h-[750px] lg:h-[450px] w-full bg-primary">
                             <div className="px-8 flex  flex-col justify-center h-full w-full lg:w-[40%]">
                                   <div className="pt-4 relative h-full lg:h-[75%]">
 
-                                    <img src={AcaGroup} className="border-4 border-white rounded-md object-cover h-full" />
-                                          <div className="absolute bottom-0 lg:bottom-0 w-full h-[50%] bg-gradient-to-b  from-transparent  via-primary  to-primary"/>
-                                         <h4 className="text-2xl lg:before:block before:h-full before:hidden lg:before:w-1.5  before:absolute before:left-0 before:bg-white lg:pl-4 absolute leading-5.5 bottom-6 font-archivo text-brand-light md:text-2xl">WE ARE NOT JUST A SCHOOL WE'RE A <span className="text-amber-200">FAMILY SCHOOL</span></h4>
+                                    <img src={AcaGroup} className="border-t-4 border-x-4 border-white rounded-md object-cover h-full" />
+                                          <div className="absolute bottom-0 lg:bottom-0 w-full h-[50%]  bg-gradient-to-b  from-transparent  via-primary  to-primary"/>
+                                         <h4 className="text-2xl w-[85%] sm:w-[70%] lg:before:block before:h-full before:hidden lg:before:w-1.5  before:absolute before:left-0 before:bg-white lg:pl-4 absolute leading-5.5 bottom-6 font-archivo text-brand-light md:text-2xl">WE ARE NOT JUST A SCHOOL WE'RE A <span className="text-amber-200">FAMILY SCHOOL</span></h4>
                                </div>
                             </div>
                             <div className="flex flex-col px-4 lg:px-0  lg:pt-4 w-full lg:w-[50%]">
