@@ -145,7 +145,7 @@ useEffect(() => {
                              <div className="w-full h-0.5  bg-amber-950 opacity-5 lg:hidden"></div> 
                             <Link to="/boarding" className="relative sm:p-2 sm:after:hidden lg:after:block  after:absolute lg:pb-2 after:origin-left after:bottom-0 after:left-2 after:h-0.5 after:bg-amber-950 transform hover:after:origin-right-left after:w-full after:duration-500 after:scale-x-0 hover:after:scale-x-100">Boarding</Link>
                              <div className="w-full h-0.5 bg-amber-950 opacity-5 lg:hidden"></div> 
-                            <Link to="/admissions" className="relative  sm:p-2 sm:after:hidden lg:after:block after:absolute lg:pb-2 after:origin-left after:bottom-0 after:left-2 after:h-0.5 after:bg-amber-950 transform hover:after:origin-right-left after:w-full after:duration-500 after:scale-x-0 hover:after:scale-x-100">Admissions</Link>
+                            <Link to="/admission" className="relative  sm:p-2 sm:after:hidden lg:after:block after:absolute lg:pb-2 after:origin-left after:bottom-0 after:left-2 after:h-0.5 after:bg-amber-950 transform hover:after:origin-right-left after:w-full after:duration-500 after:scale-x-0 hover:after:scale-x-100">Admissions</Link>
                              <div className="w-full h-0.5  bg-amber-950 opacity-5 lg:hidden"></div> 
                             <a href="#" className="relative sm:p-2 sm:after:hidden lg:after:block after:absolute lg:pb-2 after:origin-left after:bottom-0 after:left-2 after:h-0.5 after:bg-amber-950 transform hover:after:origin-right-left after:w-full after:duration-500 after:scale-x-0 hover:after:scale-x-100">Gallery</a>
                              <div className="w-full h-0.5  bg-amber-950 opacity-5 lg:hidden"></div> 
