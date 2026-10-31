@@ -125,14 +125,14 @@ const AboutComponent = () => {
                 <div className="px-8 pb-16 lg:pb-32 bg-primary">
                     <h6 className="pt-4 pb-4 text-brand-light text-md lg:text-lg tracking-wide font-extrabold">MEET OUR FOUNDERS</h6>
                     <div className="flex flex-col lg:flex-row relative lg:space-x-12">
-                        <div className="relative border-4 border-brand-light flex-1 rounded-lg shadow-2xl overflow-hidden">
-                                <img src={HeadOfSchool} className="h-full object-cover" alt="founders" />
+                        <div className="relative  h-[320px] lg:h-[550px] lg:flex-1  border-4 border-brand-light rounded-lg shadow-2xl overflow-hidden">
+                                <img src={HeadOfSchool} className="h-full w-full object-cover" alt="founders" />
                                 <div className="shadow-xl absolute w-80% lg:w-[80%]  inset-x-8 bottom-0 md:bottom-0 lg:bottom-0 p-2 lg:p-4 rounded-lg bg-accentDark text-brand-light flex items-center justify-center ">
                                     <h5>Dr Equi & Karen Nwulu</h5>
                                 </div>
                         </div>
                         
-                        <div className="pt-12 flex-1 flex-col space-y-4 lg:pt-0">
+                        <div className="pt-12 lg:flex-1 flex-col space-y-4 lg:pt-0">
                             <div className="flex items-center justify-left pt-4 space-x-2">
                                <h1 className="text-md lg:text-lg text-brand-light font-semibold">We welcome you to ACA with</h1> 
                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#e7000b" className="size-6">
@@ -150,40 +150,40 @@ const AboutComponent = () => {
                     </div>
                 </div>
                 
-                <div className="px-8 pt-4  lg:pt-32 pb-40 md:pb-50 lg:pb-50 bg-white">
+                <div className="px-8 pt-4  md:pt-16  lg:pt-32 pb-40 md:pb-50 lg:pb-50 bg-white">
                     <h6 className="pb-4 text-accentDark text-md lg:text-lg tracking-wide font-extrabold">MEET OUR GOVERNING BOARD</h6>
-                    <div className="grid grid-cols-1 min-[600px]:grid-cols-2   md:grid-cols-2 lg:grid-cols-6 auto-rows-fr  gap-16">
-                         <div className=" md:col-span-1 lg:col-span-2  relative shadow-2xl  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
+                    <div className="grid  h-[3500px] min-h-[3500px]  auto-rows-fr md:h-[1200px] md:min-h-[1200px] lg:h-[900px] lg:min-h-[900px] w-full grid-cols-1   md:grid-cols-2 lg:grid-cols-3   gap-8">
+                         <div className=" col-span-1 lg:col-span-1  relative shadow-2xl  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
                              <div className="shadow-xl absolute  bottom-0   inset-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5 className="pl-4 font-archivo min-[600px]:text-xl text-3xl md:text-4xl lg:text-3xl lg:leading-10">A Great Team Of Leaders Dedicated To Governance And Committed to Excellence</h5>
                             </div>
                         </div>
-                        <div className="md:col-span-1 lg:col-span-2  relative shadow-2xl  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={HeadOfSchool} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full object-cover" alt="founders" />
+                        <div className="col-span-1 lg:col-span-1  relative shadow-2xl  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
+                            <img src={HeadOfSchool} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full  object-cover object-center" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Dr Equi & Karen Nwulu [Head Of School & Principal]</h5>
                             </div>
                         </div>
-                        <div className="md:col-span-1 lg:col-span-2 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={boardMember1} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full object-cover" alt="founders" />
+                        <div className="col-span-1 lg:col-span-1 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
+                            <img src={boardMember1} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full w-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Dr Bankole Shodipo</h5>
                             </div>
                         </div>
-                        <div className="md:col-span-1 lg:col-span-2 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={boardMember2} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full object-cover" alt="founders" />
+                        <div className="col-span-1 lg:col-span-1 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
+                            <img src={boardMember2} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full w-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Mr. Lucky James </h5>
                             </div>
                         </div>
-                         <div className="md:col-span-1 lg:col-span-2 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={boardMember3} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full object-cover" alt="founders" />
+                         <div className="col-span-1 lg:col-span-1 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
+                            <img src={boardMember3} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full w-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Dr. Christian Happi</h5>
                             </div>
                         </div>
-                         <div className="md:col-span-1 lg:col-span-2 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
-                            <img src={boardMember4} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full object-cover" alt="founders" />
+                         <div className="col-span-1 lg:col-span-1 relative  border-primary flex-1 rounded-lg shadow-2xl overflow-hidden">
+                            <img src={boardMember4} className="scale-100 transition-transform duration-300 ease-in-out active:scale-110 hover:scale-110 h-full w-full object-cover" alt="founders" />
                             <div className="shadow-xl absolute  bottom-0   inset-x-0  p-4 bg-primary text-brand-light flex items-center justify-center ">
                                 <h5>Janice Okpanachi</h5>
                             </div>
