@@ -1,5 +1,5 @@
 import AcaGroup from "../assets/images/acaGroup2.png"
-import Admissions from '../assets/images/Admissions.png'
+import Admissions from '../assets/images/admissions.png'
 
 
 const AdmissionComponent = () => {
